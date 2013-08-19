@@ -1,0 +1,544 @@
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.24)  3 JUN 2013 22:31
+entering extended mode
+**elsarticle-template-harv.tex
+(C:\Users\Kasun\Dropbox\paper\paper\main\elsarticle-template-harv.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+(C:\Users\Kasun\Dropbox\paper\paper\main\elsarticle.cls
+Document Class: elsarticle 2009/09/17, 1.20b: Elsevier Ltd
+\@bls=\dimen102
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen103
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\pifont.sty"
+Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\upzd.fd"
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\upsy.fd"
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+\c@tnote=\count88
+\c@fnote=\count89
+\c@cnote=\count90
+\c@ead=\count91
+\c@author=\count92
+\@eadauthor=\toks15
+\c@affn=\count93
+\absbox=\box26
+\keybox=\box27
+\Columnwidth=\dimen106
+\space@left=\dimen107
+\els@boxa=\box28
+\els@boxb=\box29
+\leftMargin=\dimen108
+\@enLab=\toks16
+\@sep=\skip43
+\@@sep=\skip44
+
+(C:\Users\Kasun\Dropbox\paper\paper\main\elsarticle-template-harv.spl)
+("C:\Program Files\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip45
+\bibsep=\skip46
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count94
+)
+\splwrite=\write3
+\appnamewidth=\dimen109
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2009/06/22 v3.00
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\@emptytoks=\toks17
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsmath.sty"
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip47
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks18
+\ex@=\dimen110
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen111
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count95
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count96
+\leftroot@=\count97
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count98
+\DOTSCASE@=\count99
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box30
+\strutbox@=\box31
+\big@size=\dimen112
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count100
+\c@MaxMatrixCols=\count101
+\dotsspace@=\muskip10
+\c@parentequation=\count102
+\dspbrk@lvl=\count103
+\tag@help=\toks19
+\row@=\count104
+\column@=\count105
+\maxfields@=\count106
+\andhelp@=\toks20
+\eqnshift@=\dimen113
+\alignsep@=\dimen114
+\tagshift@=\dimen115
+\tagwidth@=\dimen116
+\totwidth@=\dimen117
+\lineht@=\dimen118
+\@envbody=\toks21
+\multlinegap=\skip48
+\multlinetaggap=\skip49
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\a4wide\a4wide.sty"
+Package: a4wide 1994/08/30
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\ntgclass\a4.sty"
+Package: a4 2004/04/15 v1.2g A4 based page layout
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+(C:\Users\Kasun\Dropbox\paper\paper\main\elsarticle-template-harv.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count107
+\scratchdimen=\dimen119
+\scratchbox=\box32
+\nofMPsegments=\count108
+\nofMParguments=\count109
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count110
+\MPscratchDim=\dimen120
+\MPnumerator=\count111
+\makeMPintoPDFobject=\count112
+\everyMPtoPDFconversion=\toks24
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 139.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 139.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+(C:\Users\Kasun\Dropbox\paper\paper\results\results.tex [1
+
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Package epstopdf Info: Source file: <../FnP/power_barrero_style_zeta_165.eps>
+(epstopdf)                    date: 2013-05-01 17:23:51
+(epstopdf)                    size: 230009 bytes
+(epstopdf)             Output file: <../FnP/power_barrero_style_zeta_165-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2013-05-01 17:23:56
+(epstopdf)                    size: 10505 bytes
+(epstopdf)             Command: <epstopdf --outfile=../FnP/power_barrero_style_
+zeta_165-eps-converted-to.pdf ../FnP/power_barrero_style_zeta_165.eps>
+(epstopdf)             \includegraphics on input line 21.
+Package epstopdf Info: Output file is already uptodate.
+
+<../FnP/power_barrero_style_zeta_165-eps-converted-to.pdf, id=14, 803.0pt x 532
+.99126pt>
+File: ../FnP/power_barrero_style_zeta_165-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+ <use ../FnP/power_barrero_style_zeta_165-eps-converted-to.pdf>
+Package pdftex.def Info: ../FnP/power_barrero_style_zeta_165-eps-converted-to.p
+df used on input line 21.
+(pdftex.def)             Requested size: 368.57838pt x 244.65031pt.
+Package epstopdf Info: Source file: <../FnP/power_barrero_style_mstar_165.eps>
+(epstopdf)                    date: 2013-05-05 16:34:42
+(epstopdf)                    size: 233584 bytes
+(epstopdf)             Output file: <../FnP/power_barrero_style_mstar_165-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2013-05-05 16:34:45
+(epstopdf)                    size: 13852 bytes
+(epstopdf)             Command: <epstopdf --outfile=../FnP/power_barrero_style_
+mstar_165-eps-converted-to.pdf ../FnP/power_barrero_style_mstar_165.eps>
+(epstopdf)             \includegraphics on input line 28.
+Package epstopdf Info: Output file is already uptodate.
+
+<../FnP/power_barrero_style_mstar_165-eps-converted-to.pdf, id=15, 787.94376pt 
+x 532.99126pt>
+File: ../FnP/power_barrero_style_mstar_165-eps-converted-to.pdf Graphic file (t
+ype pdf)
+ <use ../FnP/power_barrero_style_mstar_165-eps-converted-to.pdf>
+Package pdftex.def Info: ../FnP/power_barrero_style_mstar_165-eps-converted-to.
+pdf used on input line 28.
+(pdftex.def)             Requested size: 368.57838pt x 249.31854pt.
+Package epstopdf Info: Source file: <../FnP/from_reynolds/mean_power_collapsed_
+c_with_FSI.eps>
+(epstopdf)                    date: 2013-05-23 14:07:04
+(epstopdf)                    size: 69183 bytes
+(epstopdf)             Output file: <../FnP/from_reynolds/mean_power_collapsed_
+c_with_FSI-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-05-23 14:08:35
+(epstopdf)                    size: 12980 bytes
+(epstopdf)             Command: <epstopdf --outfile=../FnP/from_reynolds/mean_p
+ower_collapsed_c_with_FSI-eps-converted-to.pdf ../FnP/from_reynolds/mean_power_
+collapsed_c_with_FSI.eps>
+(epstopdf)             \includegraphics on input line 35.
+Package epstopdf Info: Output file is already uptodate.
+
+<../FnP/from_reynolds/mean_power_collapsed_c_with_FSI-eps-converted-to.pdf, id=
+16, 519.9425pt x 408.52625pt>
+File: ../FnP/from_reynolds/mean_power_collapsed_c_with_FSI-eps-converted-to.pdf
+ Graphic file (type pdf)
+
+<use ../FnP/from_reynolds/mean_power_collapsed_c_with_FSI-eps-converted-to.pdf>
+Package pdftex.def Info: ../FnP/from_reynolds/mean_power_collapsed_c_with_FSI-e
+ps-converted-to.pdf used on input line 35.
+(pdftex.def)             Requested size: 322.50345pt x 253.39586pt.
+Package epstopdf Info: Source file: <../FnP/power_barrero_style_mstar_collapsed
+_165.eps>
+(epstopdf)                    date: 2013-05-26 16:10:25
+(epstopdf)                    size: 127982 bytes
+(epstopdf)             Output file: <../FnP/power_barrero_style_mstar_collapsed
+_165-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-05-26 16:12:51
+(epstopdf)                    size: 17566 bytes
+(epstopdf)             Command: <epstopdf --outfile=../FnP/power_barrero_style_
+mstar_collapsed_165-eps-converted-to.pdf ../FnP/power_barrero_style_mstar_colla
+psed_165.eps>
+(epstopdf)             \includegraphics on input line 44.
+Package epstopdf Info: Output file is already uptodate.
+
+<../FnP/power_barrero_style_mstar_collapsed_165-eps-converted-to.pdf, id=17, 74
+6.79pt x 532.99126pt>
+File: ../FnP/power_barrero_style_mstar_collapsed_165-eps-converted-to.pdf Graph
+ic file (type pdf)
+
+<use ../FnP/power_barrero_style_mstar_collapsed_165-eps-converted-to.pdf>
+Package pdftex.def Info: ../FnP/power_barrero_style_mstar_collapsed_165-eps-con
+verted-to.pdf used on input line 44.
+(pdftex.def)             Requested size: 368.57838pt x 263.05481pt.
+Package epstopdf Info: Source file: <../FnP/power_barrero_style_zeta_Park.eps>
+(epstopdf)                    date: 2013-05-09 20:23:03
+(epstopdf)                    size: 233358 bytes
+(epstopdf)             Output file: <../FnP/power_barrero_style_zeta_Park-eps-c
+onverted-to.pdf>
+(epstopdf)                    date: 2013-05-09 20:24:22
+(epstopdf)                    size: 13696 bytes
+(epstopdf)             Command: <epstopdf --outfile=../FnP/power_barrero_style_
+zeta_Park-eps-converted-to.pdf ../FnP/power_barrero_style_zeta_Park.eps>
+(epstopdf)             \includegraphics on input line 51.
+Package epstopdf Info: Output file is already uptodate.
+
+<../FnP/power_barrero_style_zeta_Park-eps-converted-to.pdf, id=18, 787.94376pt 
+x 532.99126pt>
+File: ../FnP/power_barrero_style_zeta_Park-eps-converted-to.pdf Graphic file (t
+ype pdf)
+ <use ../FnP/power_barrero_style_zeta_Park-eps-converted-to.pdf>
+Package pdftex.def Info: ../FnP/power_barrero_style_zeta_Park-eps-converted-to.
+pdf used on input line 51.
+(pdftex.def)             Requested size: 322.50345pt x 218.14558pt.
+Package epstopdf Info: Source file: <../FnP/power_time_history_re165_95_0_1.eps
+>
+(epstopdf)                    date: 2013-05-13 20:11:08
+(epstopdf)                    size: 202352 bytes
+(epstopdf)             Output file: <../FnP/power_time_history_re165_95_0_1-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2013-05-13 20:12:07
+(epstopdf)                    size: 84112 bytes
+(epstopdf)             Command: <epstopdf --outfile=../FnP/power_time_history_r
+e165_95_0_1-eps-converted-to.pdf ../FnP/power_time_history_re165_95_0_1.eps>
+(epstopdf)             \includegraphics on input line 63.
+Package epstopdf Info: Output file is already uptodate.
+
+<../FnP/power_time_history_re165_95_0_1-eps-converted-to.pdf, id=19, 746.79pt x
+ 532.99126pt>
+File: ../FnP/power_time_history_re165_95_0_1-eps-converted-to.pdf Graphic file 
+(type pdf)
+
+<use ../FnP/power_time_history_re165_95_0_1-eps-converted-to.pdf>
+Package pdftex.def Info: ../FnP/power_time_history_re165_95_0_1-eps-converted-t
+o.pdf used on input line 63.
+(pdftex.def)             Requested size: 322.50345pt x 230.17397pt.
+Package epstopdf Info: Source file: <../FnP/power_time_history_re165_165_0_1.ep
+s>
+(epstopdf)                    date: 2013-05-13 20:03:25
+(epstopdf)                    size: 204039 bytes
+(epstopdf)             Output file: <../FnP/power_time_history_re165_165_0_1-ep
+s-converted-to.pdf>
+(epstopdf)                    date: 2013-05-13 20:03:40
+(epstopdf)                    size: 78662 bytes
+(epstopdf)             Command: <epstopdf --outfile=../FnP/power_time_history_r
+e165_165_0_1-eps-converted-to.pdf ../FnP/power_time_history_re165_165_0_1.eps>
+(epstopdf)             \includegraphics on input line 72.
+Package epstopdf Info: Output file is already uptodate.
+
+<../FnP/power_time_history_re165_165_0_1-eps-converted-to.pdf, id=20, 746.79pt 
+x 532.99126pt>
+File: ../FnP/power_time_history_re165_165_0_1-eps-converted-to.pdf Graphic file
+ (type pdf)
+
+<use ../FnP/power_time_history_re165_165_0_1-eps-converted-to.pdf>
+Package pdftex.def Info: ../FnP/power_time_history_re165_165_0_1-eps-converted-
+to.pdf used on input line 72.
+(pdftex.def)             Requested size: 322.50345pt x 230.17397pt.
+Package epstopdf Info: Source file: <../FnP/power_time_history_re165_400_0_1.ep
+s>
+(epstopdf)                    date: 2013-05-13 20:25:02
+(epstopdf)                    size: 207456 bytes
+(epstopdf)             Output file: <../FnP/power_time_history_re165_400_0_1-ep
+s-converted-to.pdf>
+(epstopdf)                    date: 2013-05-13 20:25:04
+(epstopdf)                    size: 81648 bytes
+(epstopdf)             Command: <epstopdf --outfile=../FnP/power_time_history_r
+e165_400_0_1-eps-converted-to.pdf ../FnP/power_time_history_re165_400_0_1.eps>
+(epstopdf)             \includegraphics on input line 82.
+Package epstopdf Info: Output file is already uptodate.
+
+<../FnP/power_time_history_re165_400_0_1-eps-converted-to.pdf, id=21, 746.79pt 
+x 532.99126pt>
+File: ../FnP/power_time_history_re165_400_0_1-eps-converted-to.pdf Graphic file
+ (type pdf)
+
+<use ../FnP/power_time_history_re165_400_0_1-eps-converted-to.pdf>
+Package pdftex.def Info: ../FnP/power_time_history_re165_400_0_1-eps-converted-
+to.pdf used on input line 82.
+(pdftex.def)             Requested size: 322.50345pt x 230.17397pt.
+Package epstopdf Info: Source file: <../FnP/from_reynolds/velocity_amp_collapse
+d.eps>
+(epstopdf)                    date: 2013-05-27 12:59:44
+(epstopdf)                    size: 64527 bytes
+(epstopdf)             Output file: <../FnP/from_reynolds/velocity_amp_collapse
+d-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-05-27 12:59:46
+(epstopdf)                    size: 9804 bytes
+(epstopdf)             Command: <epstopdf --outfile=../FnP/from_reynolds/veloci
+ty_amp_collapsed-eps-converted-to.pdf ../FnP/from_reynolds/velocity_amp_collaps
+ed.eps>
+(epstopdf)             \includegraphics on input line 90.
+Package epstopdf Info: Output file is already uptodate.
+
+<../FnP/from_reynolds/velocity_amp_collapsed-eps-converted-to.pdf, id=22, 776.9
+025pt x 491.8375pt>
+File: ../FnP/from_reynolds/velocity_amp_collapsed-eps-converted-to.pdf Graphic 
+file (type pdf)
+
+<use ../FnP/from_reynolds/velocity_amp_collapsed-eps-converted-to.pdf>
+Package pdftex.def Info: ../FnP/from_reynolds/velocity_amp_collapsed-eps-conver
+ted-to.pdf used on input line 90.
+(pdftex.def)             Requested size: 322.50345pt x 204.1688pt.
+Package epstopdf Info: Source file: <../FnP/from_reynolds/constan_power_given_c
+.eps>
+(epstopdf)                    date: 2013-05-23 14:11:05
+(epstopdf)                    size: 132467 bytes
+(epstopdf)             Output file: <../FnP/from_reynolds/constan_power_given_c
+-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-05-23 14:11:08
+(epstopdf)                    size: 11176 bytes
+(epstopdf)             Command: <epstopdf --outfile=../FnP/from_reynolds/consta
+n_power_given_c-eps-converted-to.pdf ../FnP/from_reynolds/constan_power_given_c
+.eps>
+(epstopdf)             \includegraphics on input line 99.
+Package epstopdf Info: Output file is already uptodate.
+
+<../FnP/from_reynolds/constan_power_given_c-eps-converted-to.pdf, id=23, 499.86
+75pt x 400.49625pt>
+File: ../FnP/from_reynolds/constan_power_given_c-eps-converted-to.pdf Graphic f
+ile (type pdf)
+
+<use ../FnP/from_reynolds/constan_power_given_c-eps-converted-to.pdf>
+Package pdftex.def Info: ../FnP/from_reynolds/constan_power_given_c-eps-convert
+ed-to.pdf used on input line 99.
+(pdftex.def)             Requested size: 322.50345pt x 258.40059pt.
+) [2 <C:/Users/Kasun/Dropbox/paper/paper/FnP/power_barrero_style_zeta_165-eps-c
+onverted-to.pdf>] [3 <C:/Users/Kasun/Dropbox/paper/paper/FnP/power_barrero_styl
+e_mstar_165-eps-converted-to.pdf> <C:/Users/Kasun/Dropbox/paper/paper/FnP/from_
+reynolds/mean_power_collapsed_c_with_FSI-eps-converted-to.pdf>] [4 <C:/Users/Ka
+sun/Dropbox/paper/paper/FnP/power_barrero_style_mstar_collapsed_165-eps-convert
+ed-to.pdf> <C:/Users/Kasun/Dropbox/paper/paper/FnP/power_barrero_style_zeta_Par
+k-eps-converted-to.pdf>] [5 <C:/Users/Kasun/Dropbox/paper/paper/FnP/power_time_
+history_re165_95_0_1-eps-converted-to.pdf> <C:/Users/Kasun/Dropbox/paper/paper/
+FnP/power_time_history_re165_165_0_1-eps-converted-to.pdf>] [6 <C:/Users/Kasun/
+Dropbox/paper/paper/FnP/power_time_history_re165_400_0_1-eps-converted-to.pdf> 
+<C:/Users/Kasun/Dropbox/paper/paper/FnP/from_reynolds/velocity_amp_collapsed-ep
+s-converted-to.pdf>] [7 <C:/Users/Kasun/Dropbox/paper/paper/FnP/from_reynolds/c
+onstan_power_given_c-eps-converted-to.pdf>]
+(C:\Users\Kasun\Dropbox\paper\paper\main\elsarticle-template-harv.bbl) [8
+
+]
+(C:\Users\Kasun\Dropbox\paper\paper\main\elsarticle-template-harv.aux) ) 
+Here is how much of TeX's memory you used:
+ 3155 strings out of 493921
+ 43561 string characters out of 3147282
+ 100098 words of memory out of 3000000
+ 6352 multiletter control sequences out of 15000+200000
+ 12502 words of font info for 48 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 42i,6n,34p,1384b,237s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmtt12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zap
+fding/uzdr.pfb>
+Output written on elsarticle-template-harv.pdf (8 pages, 487608 bytes).
+PDF statistics:
+ 190 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+
