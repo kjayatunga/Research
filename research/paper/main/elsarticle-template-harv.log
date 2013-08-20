@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2011.10.14)  20 AUG 2013 14:26
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=latex 2012.3.3)  20 AUG 2013 18:47
 entering extended mode
 **elsarticle-template-harv.tex
 
@@ -51,18 +51,10 @@ Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: dvips.def on input line 91.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count87
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\dvips.def"
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 ))
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
@@ -79,13 +71,13 @@ LaTeX Font Info:    Try loading font information for U+psy on input line 64.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\upsy.fd"
 File: upsy.fd 2001/06/04 font definitions for U/psy.
 ))
-\c@tnote=\count88
-\c@fnote=\count89
-\c@cnote=\count90
-\c@ead=\count91
-\c@author=\count92
+\c@tnote=\count87
+\c@fnote=\count88
+\c@cnote=\count89
+\c@ead=\count90
+\c@author=\count91
 \@eadauthor=\toks15
-\c@affn=\count93
+\c@affn=\count92
 \absbox=\box26
 \keybox=\box27
 \Columnwidth=\dimen106
@@ -103,7 +95,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip45
 \bibsep=\skip46
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count94
+\c@NAT@ctr=\count93
 )
 \splwrite=\write3
 \appnamewidth=\dimen109
@@ -114,12 +106,18 @@ Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
 Package: grfext 2010/08/19 v1.1 Managing graphics extensions (HO)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
 Package: kvdefinekeys 2011/04/07 v1.3 Defining keys (HO)
-))
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+)))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2010/12/23 v3.10 Keyval support for LaTeX options (HO)
 
@@ -143,19 +141,17 @@ Package: pdftexcmds 2011/04/22 v0.16 Utilities of pdfTeX for LuaTeX (HO)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package ifpdf Info: pdfTeX in PDF mode is not detected.
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
+Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
 )
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
-))
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+
+Package epstopdf Warning: Drivers other than `pdftex.def' are not supported.
+
+)) ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2009/06/22 v3.00
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
@@ -186,13 +182,13 @@ Package: amsbsy 1999/11/29 v1.2d
 ("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count95
+\inf@bad=\count94
 LaTeX Info: Redefining \frac on input line 211.
-\uproot@=\count96
-\leftroot@=\count97
+\uproot@=\count95
+\leftroot@=\count96
 LaTeX Info: Redefining \overline on input line 307.
-\classnum@=\count98
-\DOTSCASE@=\count99
+\classnum@=\count97
+\DOTSCASE@=\count98
 LaTeX Info: Redefining \ldots on input line 379.
 LaTeX Info: Redefining \dots on input line 382.
 LaTeX Info: Redefining \cdots on input line 467.
@@ -201,15 +197,15 @@ LaTeX Info: Redefining \cdots on input line 467.
 \big@size=\dimen112
 LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
-\macc@depth=\count100
-\c@MaxMatrixCols=\count101
+\macc@depth=\count99
+\c@MaxMatrixCols=\count100
 \dotsspace@=\muskip10
-\c@parentequation=\count102
-\dspbrk@lvl=\count103
+\c@parentequation=\count101
+\dspbrk@lvl=\count102
 \tag@help=\toks19
-\row@=\count104
-\column@=\count105
-\maxfields@=\count106
+\row@=\count103
+\column@=\count104
+\maxfields@=\count105
 \andhelp@=\toks20
 \eqnshift@=\dimen113
 \alignsep@=\dimen114
@@ -236,8 +232,11 @@ Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: pdftex.def on input line 130.
-)
+Package color Info: Driver file: dvips.def on input line 130.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
 (C:\Users\hgjay\Research\Research\research\paper\main\elsarticle-template-harv.
 aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
@@ -252,20 +251,6 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
 LaTeX Font Info:    ... okay on input line 94.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
 LaTeX Font Info:    ... okay on input line 94.
- (C:\Users\hgjay\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count107
-\scratchdimen=\dimen119
-\scratchbox=\box32
-\nofMPsegments=\count108
-\nofMParguments=\count109
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count110
-\MPscratchDim=\dimen120
-\MPnumerator=\count111
-\makeMPintoPDFobject=\count112
-\everyMPtoPDFconversion=\toks24
-)
 LaTeX Font Info:    Try loading font information for U+msa on input line 143.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
@@ -279,217 +264,37 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 (C:\Users\hgjay\Research\Research\research\paper\nomenclature.tex [1
 
 
-{C:/Users/hgjay/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}])
+])
 (C:\Users\hgjay\Research\Research\research\paper\Theory\mathematical_model.tex
 [2]
-Package epstopdf Info: Source file: <../FnP/setup_1.eps>
-(epstopdf)                    date: 2013-08-20 10:42:13
-(epstopdf)                    size: 11040 bytes
-(epstopdf)             Output file: <../FnP/setup_1-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-08-20 10:42:13
-(epstopdf)                    size: 5339 bytes
-(epstopdf)             Command: <epstopdf --outfile=../FnP/setup_1-eps-converte
-d-to.pdf ../FnP/setup_1.eps>
-(epstopdf)             \includegraphics on input line 10.
-Package epstopdf Info: Output file is already uptodate.
- <../FnP/setup_1-eps-converted-to.pdf, id=14, 111.41624pt x 53.19875pt>
-File: ../FnP/setup_1-eps-converted-to.pdf Graphic file (type pdf)
-
-<use ../FnP/setup_1-eps-converted-to.pdf>
-Package pdftex.def Info: ../FnP/setup_1-eps-converted-to.pdf used on input line
- 10.
-(pdftex.def)             Requested size: 230.36061pt x 110.00136pt.
- [3] [4 <C:/Users/hgjay/Research/Research/research/paper/FnP/setup_1-eps-conver
-ted-to.pdf>]
+File: ../FnP/setup_1.eps Graphic file (type eps)
+ <../FnP/setup_1.eps> [3] [4]
 (C:\Users\hgjay\Research\Research\research\paper\figure\fig7.tex
-Package epstopdf Info: Source file: <../FnP/gnuplot/lift_curve_165.eps>
-(epstopdf)                    date: 2013-08-20 10:42:12
-(epstopdf)                    size: 20479 bytes
-(epstopdf)             Output file: <../FnP/gnuplot/lift_curve_165-eps-converte
-d-to.pdf>
-(epstopdf)                    date: 2013-08-20 10:42:12
-(epstopdf)                    size: 6159 bytes
-(epstopdf)             Command: <epstopdf --outfile=../FnP/gnuplot/lift_curve_1
-65-eps-converted-to.pdf ../FnP/gnuplot/lift_curve_165.eps>
-(epstopdf)             \includegraphics on input line 7.
-Package epstopdf Info: Output file is already uptodate.
+File: ../FnP/gnuplot/lift_curve_165.eps Graphic file (type eps)
 
-<../FnP/gnuplot/lift_curve_165-eps-converted-to.pdf, id=29, 341.275pt x 170.637
-5pt>
-File: ../FnP/gnuplot/lift_curve_165-eps-converted-to.pdf Graphic file (type pdf
-)
- <use ../FnP/gnuplot/lift_curve_165-eps-converted-to.pdf>
-Package pdftex.def Info: ../FnP/gnuplot/lift_curve_165-eps-converted-to.pdf use
-d on input line 7.
-(pdftex.def)             Requested size: 230.36061pt x 115.18314pt.
-Package epstopdf Info: Source file: <../FnP/gnuplot/lift_curve_park.eps>
-(epstopdf)                    date: 2013-08-20 10:42:12
-(epstopdf)                    size: 31068 bytes
-(epstopdf)             Output file: <../FnP/gnuplot/lift_curve_park-eps-convert
-ed-to.pdf>
-(epstopdf)                    date: 2013-08-20 10:42:12
-(epstopdf)                    size: 9338 bytes
-(epstopdf)             Command: <epstopdf --outfile=../FnP/gnuplot/lift_curve_p
-ark-eps-converted-to.pdf ../FnP/gnuplot/lift_curve_park.eps>
-(epstopdf)             \includegraphics on input line 8.
-Package epstopdf Info: Output file is already uptodate.
-
-<../FnP/gnuplot/lift_curve_park-eps-converted-to.pdf, id=30, 341.275pt x 170.63
-75pt>
-File: ../FnP/gnuplot/lift_curve_park-eps-converted-to.pdf Graphic file (type pd
-f)
- <use ../FnP/gnuplot/lift_curve_park-eps-converted-to.pdf>
-Package pdftex.def Info: ../FnP/gnuplot/lift_curve_park-eps-converted-to.pdf us
-ed on input line 8.
-(pdftex.def)             Requested size: 230.36061pt x 115.18314pt.
-))
+<../FnP/gnuplot/lift_curve_165.eps>
+File: ../FnP/gnuplot/lift_curve_park.eps Graphic file (type eps)
+ <../FnP/gnuplot/lift_curve_park.eps>))
 (C:\Users\hgjay\Research\Research\research\paper\results\results-2.3.tex
 (C:\Users\hgjay\Research\Research\research\paper\figure\fig.tex
-Package epstopdf Info: Source file: <../FnP/gnuplot/displacement_amp_re_parkins
-on_1.eps>
-(epstopdf)                    date: 2013-08-20 10:42:12
-(epstopdf)                    size: 20271 bytes
-(epstopdf)             Output file: <../FnP/gnuplot/displacement_amp_re_parkins
-on_1-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-08-20 10:42:12
-(epstopdf)                    size: 6596 bytes
-(epstopdf)             Command: <epstopdf --outfile=../FnP/gnuplot/displacement
-_amp_re_parkinson_1-eps-converted-to.pdf ../FnP/gnuplot/displacement_amp_re_par
-kinson_1.eps>
-(epstopdf)             \includegraphics on input line 38.
-Package epstopdf Info: Output file is already uptodate.
+File: ../FnP/gnuplot/displacement_amp_re_parkinson_1.eps Graphic file (type eps
+)
 
-<../FnP/gnuplot/displacement_amp_re_parkinson_1-eps-converted-to.pdf, id=31, 34
-1.275pt x 170.6375pt>
-File: ../FnP/gnuplot/displacement_amp_re_parkinson_1-eps-converted-to.pdf Graph
-ic file (type pdf)
+<../FnP/gnuplot/displacement_amp_re_parkinson_1.eps>
+File: ../FnP/gnuplot/velocity_amp_re_parkinson.eps Graphic file (type eps)
 
-<use ../FnP/gnuplot/displacement_amp_re_parkinson_1-eps-converted-to.pdf>
-Package pdftex.def Info: ../FnP/gnuplot/displacement_amp_re_parkinson_1-eps-con
-verted-to.pdf used on input line 38.
-(pdftex.def)             Requested size: 230.36061pt x 115.18314pt.
-Package epstopdf Info: Source file: <../FnP/gnuplot/velocity_amp_re_parkinson.e
-ps>
-(epstopdf)                    date: 2013-08-20 10:42:12
-(epstopdf)                    size: 20383 bytes
-(epstopdf)             Output file: <../FnP/gnuplot/velocity_amp_re_parkinson-e
-ps-converted-to.pdf>
-(epstopdf)                    date: 2013-08-20 10:42:12
-(epstopdf)                    size: 7054 bytes
-(epstopdf)             Command: <epstopdf --outfile=../FnP/gnuplot/velocity_amp
-_re_parkinson-eps-converted-to.pdf ../FnP/gnuplot/velocity_amp_re_parkinson.eps
->
-(epstopdf)             \includegraphics on input line 38.
-Package epstopdf Info: Output file is already uptodate.
+<../FnP/gnuplot/velocity_amp_re_parkinson.eps>
+File: ../FnP/gnuplot/mean_power_re_parkinson.eps Graphic file (type eps)
 
-<../FnP/gnuplot/velocity_amp_re_parkinson-eps-converted-to.pdf, id=32, 341.275p
-t x 170.6375pt>
-File: ../FnP/gnuplot/velocity_amp_re_parkinson-eps-converted-to.pdf Graphic fil
-e (type pdf)
+<../FnP/gnuplot/mean_power_re_parkinson.eps>
+File: ../FnP/gnuplot/displacement_amp_re165.eps Graphic file (type eps)
 
-<use ../FnP/gnuplot/velocity_amp_re_parkinson-eps-converted-to.pdf>
-Package pdftex.def Info: ../FnP/gnuplot/velocity_amp_re_parkinson-eps-converted
--to.pdf used on input line 38.
-(pdftex.def)             Requested size: 230.36061pt x 115.18314pt.
-Package epstopdf Info: Source file: <../FnP/gnuplot/mean_power_re_parkinson.eps
->
-(epstopdf)                    date: 2013-08-20 10:42:12
-(epstopdf)                    size: 22600 bytes
-(epstopdf)             Output file: <../FnP/gnuplot/mean_power_re_parkinson-eps
--converted-to.pdf>
-(epstopdf)                    date: 2013-08-20 10:42:12
-(epstopdf)                    size: 9772 bytes
-(epstopdf)             Command: <epstopdf --outfile=../FnP/gnuplot/mean_power_r
-e_parkinson-eps-converted-to.pdf ../FnP/gnuplot/mean_power_re_parkinson.eps>
-(epstopdf)             \includegraphics on input line 38.
-Package epstopdf Info: Output file is already uptodate.
+<../FnP/gnuplot/displacement_amp_re165.eps>
+File: ../FnP/gnuplot/velocity_amp_re165.eps Graphic file (type eps)
 
-<../FnP/gnuplot/mean_power_re_parkinson-eps-converted-to.pdf, id=33, 341.275pt 
-x 170.6375pt>
-File: ../FnP/gnuplot/mean_power_re_parkinson-eps-converted-to.pdf Graphic file 
-(type pdf)
-
-<use ../FnP/gnuplot/mean_power_re_parkinson-eps-converted-to.pdf>
-Package pdftex.def Info: ../FnP/gnuplot/mean_power_re_parkinson-eps-converted-t
-o.pdf used on input line 38.
-(pdftex.def)             Requested size: 230.36061pt x 115.18314pt.
-Package epstopdf Info: Source file: <../FnP/gnuplot/displacement_amp_re165.eps>
-
-(epstopdf)                    date: 2013-08-20 10:42:12
-(epstopdf)                    size: 19980 bytes
-(epstopdf)             Output file: <../FnP/gnuplot/displacement_amp_re165-eps-
-converted-to.pdf>
-(epstopdf)                    date: 2013-08-20 10:42:12
-(epstopdf)                    size: 5293 bytes
-(epstopdf)             Command: <epstopdf --outfile=../FnP/gnuplot/displacement
-_amp_re165-eps-converted-to.pdf ../FnP/gnuplot/displacement_amp_re165.eps>
-(epstopdf)             \includegraphics on input line 38.
-Package epstopdf Info: Output file is already uptodate.
-
-<../FnP/gnuplot/displacement_amp_re165-eps-converted-to.pdf, id=34, 341.275pt x
- 170.6375pt>
-File: ../FnP/gnuplot/displacement_amp_re165-eps-converted-to.pdf Graphic file (
-type pdf)
- <use ../FnP/gnuplot/displacement_amp_re165-eps-converted-to.pdf>
-Package pdftex.def Info: ../FnP/gnuplot/displacement_amp_re165-eps-converted-to
-.pdf used on input line 38.
-(pdftex.def)             Requested size: 230.36061pt x 115.18314pt.
-Package epstopdf Info: Source file: <../FnP/gnuplot/velocity_amp_re165.eps>
-(epstopdf)                    date: 2013-08-20 10:42:12
-(epstopdf)                    size: 20125 bytes
-(epstopdf)             Output file: <../FnP/gnuplot/velocity_amp_re165-eps-conv
-erted-to.pdf>
-(epstopdf)                    date: 2013-08-20 10:42:12
-(epstopdf)                    size: 5622 bytes
-(epstopdf)             Command: <epstopdf --outfile=../FnP/gnuplot/velocity_amp
-_re165-eps-converted-to.pdf ../FnP/gnuplot/velocity_amp_re165.eps>
-(epstopdf)             \includegraphics on input line 38.
-Package epstopdf Info: Output file is already uptodate.
-
-<../FnP/gnuplot/velocity_amp_re165-eps-converted-to.pdf, id=35, 341.275pt x 170
-.6375pt>
-File: ../FnP/gnuplot/velocity_amp_re165-eps-converted-to.pdf Graphic file (type
- pdf)
- <use ../FnP/gnuplot/velocity_amp_re165-eps-converted-to.pdf>
-Package pdftex.def Info: ../FnP/gnuplot/velocity_amp_re165-eps-converted-to.pdf
- used on input line 38.
-(pdftex.def)             Requested size: 230.36061pt x 115.18314pt.
-Package epstopdf Info: Source file: <../FnP/gnuplot/mean_power_re_165.eps>
-(epstopdf)                    date: 2013-08-20 10:42:12
-(epstopdf)                    size: 20953 bytes
-(epstopdf)             Output file: <../FnP/gnuplot/mean_power_re_165-eps-conve
-rted-to.pdf>
-(epstopdf)                    date: 2013-08-20 10:42:12
-(epstopdf)                    size: 7013 bytes
-(epstopdf)             Command: <epstopdf --outfile=../FnP/gnuplot/mean_power_r
-e_165-eps-converted-to.pdf ../FnP/gnuplot/mean_power_re_165.eps>
-(epstopdf)             \includegraphics on input line 38.
-Package epstopdf Info: Output file is already uptodate.
-
-<../FnP/gnuplot/mean_power_re_165-eps-converted-to.pdf, id=36, 341.275pt x 170.
-6375pt>
-File: ../FnP/gnuplot/mean_power_re_165-eps-converted-to.pdf Graphic file (type 
-pdf)
- <use ../FnP/gnuplot/mean_power_re_165-eps-converted-to.pdf>
-Package pdftex.def Info: ../FnP/gnuplot/mean_power_re_165-eps-converted-to.pdf 
-used on input line 38.
-(pdftex.def)             Requested size: 230.36061pt x 115.18314pt.
-
-Overfull \hbox (14.63324pt too wide) in paragraph at lines 38--40
-[][] 
- []
-
-) [5 <C:/Users/hgjay/Research/Research/research/paper/FnP/gnuplot/lift_curve_16
-5-eps-converted-to.pdf> <C:/Users/hgjay/Research/Research/research/paper/FnP/gn
-uplot/lift_curve_park-eps-converted-to.pdf>] [6 <C:/Users/hgjay/Research/Resear
-ch/research/paper/FnP/gnuplot/displacement_amp_re_parkinson_1-eps-converted-to.
-pdf> <C:/Users/hgjay/Research/Research/research/paper/FnP/gnuplot/velocity_amp_
-re_parkinson-eps-converted-to.pdf> <C:/Users/hgjay/Research/Research/research/p
-aper/FnP/gnuplot/mean_power_re_parkinson-eps-converted-to.pdf> <C:/Users/hgjay/
-Research/Research/research/paper/FnP/gnuplot/displacement_amp_re165-eps-convert
-ed-to.pdf> <C:/Users/hgjay/Research/Research/research/paper/FnP/gnuplot/velocit
-y_amp_re165-eps-converted-to.pdf> <C:/Users/hgjay/Research/Research/research/pa
-per/FnP/gnuplot/mean_power_re_165-eps-converted-to.pdf>]
+<../FnP/gnuplot/velocity_amp_re165.eps>
+File: ../FnP/gnuplot/mean_power_re_165.eps Graphic file (type eps)
+ <../FnP/gnuplot/mean_power_re_165.eps>) [5] [6]
 
 LaTeX Warning: Reference `fig:velocity_collapsed' on page 7 undefined on input 
 line 25.
@@ -503,464 +308,73 @@ LaTeX Warning: Reference `fig:same_max_vel' on page 7 undefined on input line 2
 5.
 
 (C:\Users\hgjay\Research\Research\research\paper\figure\fig2.tex
-Package epstopdf Info: Source file: <../FnP/gnuplot/velocity_amp_collapsed_park
-inson.eps>
-(epstopdf)                    date: 2013-08-20 10:42:12
-(epstopdf)                    size: 20364 bytes
-(epstopdf)             Output file: <../FnP/gnuplot/velocity_amp_collapsed_park
-inson-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-08-20 10:42:12
-(epstopdf)                    size: 6680 bytes
-(epstopdf)             Command: <epstopdf --outfile=../FnP/gnuplot/velocity_amp
-_collapsed_parkinson-eps-converted-to.pdf ../FnP/gnuplot/velocity_amp_collapsed
-_parkinson.eps>
-(epstopdf)             \includegraphics on input line 26.
-Package epstopdf Info: Output file is already uptodate.
+File: ../FnP/gnuplot/velocity_amp_collapsed_parkinson.eps Graphic file (type ep
+s)
 
-<../FnP/gnuplot/velocity_amp_collapsed_parkinson-eps-converted-to.pdf, id=86, 3
-41.275pt x 170.6375pt>
-File: ../FnP/gnuplot/velocity_amp_collapsed_parkinson-eps-converted-to.pdf Grap
-hic file (type pdf)
+<../FnP/gnuplot/velocity_amp_collapsed_parkinson.eps>
+File: ../FnP/gnuplot/velocity_amp_collapsed_re165.eps Graphic file (type eps)
 
-<use ../FnP/gnuplot/velocity_amp_collapsed_parkinson-eps-converted-to.pdf>
-Package pdftex.def Info: ../FnP/gnuplot/velocity_amp_collapsed_parkinson-eps-co
-nverted-to.pdf used on input line 26.
-(pdftex.def)             Requested size: 230.36061pt x 115.18314pt.
-Package epstopdf Info: Source file: <../FnP/gnuplot/velocity_amp_collapsed_re16
-5.eps>
-(epstopdf)                    date: 2013-08-20 10:42:12
-(epstopdf)                    size: 20483 bytes
-(epstopdf)             Output file: <../FnP/gnuplot/velocity_amp_collapsed_re16
-5-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-08-20 10:42:12
-(epstopdf)                    size: 6010 bytes
-(epstopdf)             Command: <epstopdf --outfile=../FnP/gnuplot/velocity_amp
-_collapsed_re165-eps-converted-to.pdf ../FnP/gnuplot/velocity_amp_collapsed_re1
-65.eps>
-(epstopdf)             \includegraphics on input line 26.
-Package epstopdf Info: Output file is already uptodate.
-
-<../FnP/gnuplot/velocity_amp_collapsed_re165-eps-converted-to.pdf, id=87, 341.2
-75pt x 170.6375pt>
-File: ../FnP/gnuplot/velocity_amp_collapsed_re165-eps-converted-to.pdf Graphic 
-file (type pdf)
-
-<use ../FnP/gnuplot/velocity_amp_collapsed_re165-eps-converted-to.pdf>
-Package pdftex.def Info: ../FnP/gnuplot/velocity_amp_collapsed_re165-eps-conver
-ted-to.pdf used on input line 26.
-(pdftex.def)             Requested size: 230.36061pt x 115.18314pt.
-Package epstopdf Info: Source file: <../FnP/gnuplot/mean_power_collapsed_prakin
-son.eps>
-(epstopdf)                    date: 2013-08-20 10:42:12
-(epstopdf)                    size: 22867 bytes
-(epstopdf)             Output file: <../FnP/gnuplot/mean_power_collapsed_prakin
-son-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-08-20 10:42:12
-(epstopdf)                    size: 11798 bytes
-(epstopdf)             Command: <epstopdf --outfile=../FnP/gnuplot/mean_power_c
-ollapsed_prakinson-eps-converted-to.pdf ../FnP/gnuplot/mean_power_collapsed_pra
-kinson.eps>
-(epstopdf)             \includegraphics on input line 26.
-Package epstopdf Info: Output file is already uptodate.
-
-<../FnP/gnuplot/mean_power_collapsed_prakinson-eps-converted-to.pdf, id=88, 341
-.275pt x 170.6375pt>
-File: ../FnP/gnuplot/mean_power_collapsed_prakinson-eps-converted-to.pdf Graphi
-c file (type pdf)
-
-<use ../FnP/gnuplot/mean_power_collapsed_prakinson-eps-converted-to.pdf>
-Package pdftex.def Info: ../FnP/gnuplot/mean_power_collapsed_prakinson-eps-conv
-erted-to.pdf used on input line 26.
-(pdftex.def)             Requested size: 230.36061pt x 115.18314pt.
-Package epstopdf Info: Source file: <../FnP/gnuplot/mean_power_collapsed_re_165
-.eps>
-(epstopdf)                    date: 2013-08-20 10:42:12
-(epstopdf)                    size: 20803 bytes
-(epstopdf)             Output file: <../FnP/gnuplot/mean_power_collapsed_re_165
--eps-converted-to.pdf>
-(epstopdf)                    date: 2013-08-20 10:42:12
-(epstopdf)                    size: 7023 bytes
-(epstopdf)             Command: <epstopdf --outfile=../FnP/gnuplot/mean_power_c
-ollapsed_re_165-eps-converted-to.pdf ../FnP/gnuplot/mean_power_collapsed_re_165
-.eps>
-(epstopdf)             \includegraphics on input line 26.
-Package epstopdf Info: Output file is already uptodate.
-
-<../FnP/gnuplot/mean_power_collapsed_re_165-eps-converted-to.pdf, id=89, 341.27
-5pt x 170.6375pt>
-File: ../FnP/gnuplot/mean_power_collapsed_re_165-eps-converted-to.pdf Graphic f
-ile (type pdf)
-
-<use ../FnP/gnuplot/mean_power_collapsed_re_165-eps-converted-to.pdf>
-Package pdftex.def Info: ../FnP/gnuplot/mean_power_collapsed_re_165-eps-convert
-ed-to.pdf used on input line 26.
-(pdftex.def)             Requested size: 230.36061pt x 115.18314pt.
-
-Overfull \hbox (14.63324pt too wide) in paragraph at lines 26--27
-[][] 
- []
-
-) (C:\Users\hgjay\Research\Research\research\paper\figure\fig6.tex
-
-! LaTeX Error: Unknown graphics extension: .075.eps.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.30 }
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+<../FnP/gnuplot/velocity_amp_collapsed_re165.eps>
+File: ../FnP/gnuplot/mean_power_collapsed_prakinson.eps Graphic file (type eps)
 
 
-! LaTeX Error: Unknown graphics extension: .175.eps.
+<../FnP/gnuplot/mean_power_collapsed_prakinson.eps>
+File: ../FnP/gnuplot/mean_power_collapsed_re_165.eps Graphic file (type eps)
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.30 }
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+<../FnP/gnuplot/mean_power_collapsed_re_165.eps>)
+(C:\Users\hgjay\Research\Research\research\paper\figure\fig6.tex
+File: ../FnP/gnuplot/vel_time_history_60_0.075.eps Graphic file (type eps)
 
+<../FnP/gnuplot/vel_time_history_60_0.075.eps>
+File: ../FnP/gnuplot/vel_time_history_165_0.175.eps Graphic file (type eps)
 
-Overfull \hbox (14.63324pt too wide) in paragraph at lines 30--31
-[][] 
- []
-
-) [7] [8 <C:/Users/hgjay/Research/Research/research/paper/FnP/gnuplot/velocity_
-amp_collapsed_parkinson-eps-converted-to.pdf> <C:/Users/hgjay/Research/Research
-/research/paper/FnP/gnuplot/velocity_amp_collapsed_re165-eps-converted-to.pdf> 
-<C:/Users/hgjay/Research/Research/research/paper/FnP/gnuplot/mean_power_collaps
-ed_prakinson-eps-converted-to.pdf> <C:/Users/hgjay/Research/Research/research/p
-aper/FnP/gnuplot/mean_power_collapsed_re_165-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <../FnP/sketch_1.eps>
-(epstopdf)                    date: 2013-08-20 10:42:13
-(epstopdf)                    size: 19460 bytes
-(epstopdf)             Output file: <../FnP/sketch_1-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-08-20 10:42:13
-(epstopdf)                    size: 8610 bytes
-(epstopdf)             Command: <epstopdf --outfile=../FnP/sketch_1-eps-convert
-ed-to.pdf ../FnP/sketch_1.eps>
-(epstopdf)             \includegraphics on input line 38.
-Package epstopdf Info: Output file is already uptodate.
-
-<../FnP/sketch_1-eps-converted-to.pdf, id=118, 325.215pt x 201.75375pt>
-File: ../FnP/sketch_1-eps-converted-to.pdf Graphic file (type pdf)
-
-<use ../FnP/sketch_1-eps-converted-to.pdf>
-Package pdftex.def Info: ../FnP/sketch_1-eps-converted-to.pdf used on input lin
-e 38.
-(pdftex.def)             Requested size: 230.36061pt x 142.91368pt.
- [9 <C:/Users/hgjay/Research/Research/research/paper/FnP/sketch_1-eps-converted
--to.pdf>]
+<../FnP/gnuplot/vel_time_history_165_0.175.eps>) [7] [8]
+File: ../FnP/sketch_1.eps Graphic file (type eps)
+ <../FnP/sketch_1.eps>
 (C:\Users\hgjay\Research\Research\research\paper\figure\fig3.tex
-Package epstopdf Info: Source file: <../FnP/gnuplot/power_time_history_90.eps>
-(epstopdf)                    date: 2013-08-20 10:42:12
-(epstopdf)                    size: 171608 bytes
-(epstopdf)             Output file: <../FnP/gnuplot/power_time_history_90-eps-c
-onverted-to.pdf>
-(epstopdf)                    date: 2013-08-20 10:42:12
-(epstopdf)                    size: 27928 bytes
-(epstopdf)             Command: <epstopdf --outfile=../FnP/gnuplot/power_time_h
-istory_90-eps-converted-to.pdf ../FnP/gnuplot/power_time_history_90.eps>
-(epstopdf)             \includegraphics on input line 49.
-Package epstopdf Info: Output file is already uptodate.
+File: ../FnP/gnuplot/power_time_history_90.eps Graphic file (type eps)
 
-<../FnP/gnuplot/power_time_history_90-eps-converted-to.pdf, id=124, 341.275pt x
- 170.6375pt>
-File: ../FnP/gnuplot/power_time_history_90-eps-converted-to.pdf Graphic file (t
-ype pdf)
- <use ../FnP/gnuplot/power_time_history_90-eps-converted-to.pdf>
-Package pdftex.def Info: ../FnP/gnuplot/power_time_history_90-eps-converted-to.
-pdf used on input line 49.
-(pdftex.def)             Requested size: 161.25523pt x 80.62924pt.
-Package epstopdf Info: Source file: <../FnP/gnuplot/f_y_history_90.eps>
-(epstopdf)                    date: 2013-08-20 10:42:12
-(epstopdf)                    size: 99988 bytes
-(epstopdf)             Output file: <../FnP/gnuplot/f_y_history_90-eps-converte
-d-to.pdf>
-(epstopdf)                    date: 2013-08-20 10:42:12
-(epstopdf)                    size: 22176 bytes
-(epstopdf)             Command: <epstopdf --outfile=../FnP/gnuplot/f_y_history_
-90-eps-converted-to.pdf ../FnP/gnuplot/f_y_history_90.eps>
-(epstopdf)             \includegraphics on input line 49.
-Package epstopdf Info: Output file is already uptodate.
+<../FnP/gnuplot/power_time_history_90.eps>
+File: ../FnP/gnuplot/f_y_history_90.eps Graphic file (type eps)
+ <../FnP/gnuplot/f_y_history_90.eps>
+File: ../FnP/gnuplot/theta_time_history_90.eps Graphic file (type eps)
 
-<../FnP/gnuplot/f_y_history_90-eps-converted-to.pdf, id=125, 341.275pt x 170.63
-75pt>
-File: ../FnP/gnuplot/f_y_history_90-eps-converted-to.pdf Graphic file (type pdf
-)
- <use ../FnP/gnuplot/f_y_history_90-eps-converted-to.pdf>
-Package pdftex.def Info: ../FnP/gnuplot/f_y_history_90-eps-converted-to.pdf use
-d on input line 49.
-(pdftex.def)             Requested size: 161.25523pt x 80.62924pt.
-Package epstopdf Info: Source file: <../FnP/gnuplot/theta_time_history_90.eps>
-(epstopdf)                    date: 2013-08-20 10:42:12
-(epstopdf)                    size: 104298 bytes
-(epstopdf)             Output file: <../FnP/gnuplot/theta_time_history_90-eps-c
-onverted-to.pdf>
-(epstopdf)                    date: 2013-08-20 10:42:12
-(epstopdf)                    size: 23311 bytes
-(epstopdf)             Command: <epstopdf --outfile=../FnP/gnuplot/theta_time_h
-istory_90-eps-converted-to.pdf ../FnP/gnuplot/theta_time_history_90.eps>
-(epstopdf)             \includegraphics on input line 49.
-Package epstopdf Info: Output file is already uptodate.
+<../FnP/gnuplot/theta_time_history_90.eps>
+File: ../FnP/gnuplot/power_time_history_165.eps Graphic file (type eps)
 
-<../FnP/gnuplot/theta_time_history_90-eps-converted-to.pdf, id=126, 341.275pt x
- 170.6375pt>
-File: ../FnP/gnuplot/theta_time_history_90-eps-converted-to.pdf Graphic file (t
-ype pdf)
- <use ../FnP/gnuplot/theta_time_history_90-eps-converted-to.pdf>
-Package pdftex.def Info: ../FnP/gnuplot/theta_time_history_90-eps-converted-to.
-pdf used on input line 49.
-(pdftex.def)             Requested size: 161.25523pt x 80.62924pt.
-Package epstopdf Info: Source file: <../FnP/gnuplot/power_time_history_165.eps>
+<../FnP/gnuplot/power_time_history_165.eps>
+File: ../FnP/gnuplot/f_y_history_165.eps Graphic file (type eps)
 
-(epstopdf)                    date: 2013-08-20 10:42:12
-(epstopdf)                    size: 160329 bytes
-(epstopdf)             Output file: <../FnP/gnuplot/power_time_history_165-eps-
-converted-to.pdf>
-(epstopdf)                    date: 2013-08-20 10:42:12
-(epstopdf)                    size: 29547 bytes
-(epstopdf)             Command: <epstopdf --outfile=../FnP/gnuplot/power_time_h
-istory_165-eps-converted-to.pdf ../FnP/gnuplot/power_time_history_165.eps>
-(epstopdf)             \includegraphics on input line 49.
-Package epstopdf Info: Output file is already uptodate.
+<../FnP/gnuplot/f_y_history_165.eps>
+File: ../FnP/gnuplot/theta_time_history_165.eps Graphic file (type eps)
 
-<../FnP/gnuplot/power_time_history_165-eps-converted-to.pdf, id=127, 341.275pt 
-x 170.6375pt>
-File: ../FnP/gnuplot/power_time_history_165-eps-converted-to.pdf Graphic file (
-type pdf)
- <use ../FnP/gnuplot/power_time_history_165-eps-converted-to.pdf>
-Package pdftex.def Info: ../FnP/gnuplot/power_time_history_165-eps-converted-to
-.pdf used on input line 49.
-(pdftex.def)             Requested size: 161.25523pt x 80.62924pt.
-Package epstopdf Info: Source file: <../FnP/gnuplot/f_y_history_165.eps>
-(epstopdf)                    date: 2013-08-20 10:42:12
-(epstopdf)                    size: 134346 bytes
-(epstopdf)             Output file: <../FnP/gnuplot/f_y_history_165-eps-convert
-ed-to.pdf>
-(epstopdf)                    date: 2013-08-20 10:42:12
-(epstopdf)                    size: 27287 bytes
-(epstopdf)             Command: <epstopdf --outfile=../FnP/gnuplot/f_y_history_
-165-eps-converted-to.pdf ../FnP/gnuplot/f_y_history_165.eps>
-(epstopdf)             \includegraphics on input line 49.
-Package epstopdf Info: Output file is already uptodate.
+<../FnP/gnuplot/theta_time_history_165.eps>
+File: ../FnP/gnuplot/power_time_history_400.eps Graphic file (type eps)
 
-<../FnP/gnuplot/f_y_history_165-eps-converted-to.pdf, id=128, 341.275pt x 170.6
-375pt>
-File: ../FnP/gnuplot/f_y_history_165-eps-converted-to.pdf Graphic file (type pd
-f)
- <use ../FnP/gnuplot/f_y_history_165-eps-converted-to.pdf>
-Package pdftex.def Info: ../FnP/gnuplot/f_y_history_165-eps-converted-to.pdf us
-ed on input line 49.
-(pdftex.def)             Requested size: 161.25523pt x 80.62924pt.
-Package epstopdf Info: Source file: <../FnP/gnuplot/theta_time_history_165.eps>
+<../FnP/gnuplot/power_time_history_400.eps>
+File: ../FnP/gnuplot/f_y_history_400.eps Graphic file (type eps)
 
-(epstopdf)                    date: 2013-08-20 10:42:12
-(epstopdf)                    size: 113864 bytes
-(epstopdf)             Output file: <../FnP/gnuplot/theta_time_history_165-eps-
-converted-to.pdf>
-(epstopdf)                    date: 2013-08-20 10:42:12
-(epstopdf)                    size: 26503 bytes
-(epstopdf)             Command: <epstopdf --outfile=../FnP/gnuplot/theta_time_h
-istory_165-eps-converted-to.pdf ../FnP/gnuplot/theta_time_history_165.eps>
-(epstopdf)             \includegraphics on input line 49.
-Package epstopdf Info: Output file is already uptodate.
+<../FnP/gnuplot/f_y_history_400.eps>
+File: ../FnP/gnuplot/theta_time_history_400.eps Graphic file (type eps)
 
-<../FnP/gnuplot/theta_time_history_165-eps-converted-to.pdf, id=129, 341.275pt 
-x 170.6375pt>
-File: ../FnP/gnuplot/theta_time_history_165-eps-converted-to.pdf Graphic file (
-type pdf)
- <use ../FnP/gnuplot/theta_time_history_165-eps-converted-to.pdf>
-Package pdftex.def Info: ../FnP/gnuplot/theta_time_history_165-eps-converted-to
-.pdf used on input line 49.
-(pdftex.def)             Requested size: 161.25523pt x 80.62924pt.
-Package epstopdf Info: Source file: <../FnP/gnuplot/power_time_history_400.eps>
+<../FnP/gnuplot/theta_time_history_400.eps>)
+(C:\Users\hgjay\Research\Research\research\paper\figure\fig5.tex
+File: ../FnP/gnuplot/mean_power_collapsed_mstar.eps Graphic file (type eps)
 
-(epstopdf)                    date: 2013-08-20 10:42:12
-(epstopdf)                    size: 135257 bytes
-(epstopdf)             Output file: <../FnP/gnuplot/power_time_history_400-eps-
-converted-to.pdf>
-(epstopdf)                    date: 2013-08-20 10:42:12
-(epstopdf)                    size: 27736 bytes
-(epstopdf)             Command: <epstopdf --outfile=../FnP/gnuplot/power_time_h
-istory_400-eps-converted-to.pdf ../FnP/gnuplot/power_time_history_400.eps>
-(epstopdf)             \includegraphics on input line 49.
-Package epstopdf Info: Output file is already uptodate.
+<../FnP/gnuplot/mean_power_collapsed_mstar.eps>)
 
-<../FnP/gnuplot/power_time_history_400-eps-converted-to.pdf, id=130, 341.275pt 
-x 170.6375pt>
-File: ../FnP/gnuplot/power_time_history_400-eps-converted-to.pdf Graphic file (
-type pdf)
- <use ../FnP/gnuplot/power_time_history_400-eps-converted-to.pdf>
-Package pdftex.def Info: ../FnP/gnuplot/power_time_history_400-eps-converted-to
-.pdf used on input line 49.
-(pdftex.def)             Requested size: 161.25523pt x 80.62924pt.
-Package epstopdf Info: Source file: <../FnP/gnuplot/f_y_history_400.eps>
-(epstopdf)                    date: 2013-08-20 10:42:12
-(epstopdf)                    size: 103732 bytes
-(epstopdf)             Output file: <../FnP/gnuplot/f_y_history_400-eps-convert
-ed-to.pdf>
-(epstopdf)                    date: 2013-08-20 10:42:12
-(epstopdf)                    size: 24829 bytes
-(epstopdf)             Command: <epstopdf --outfile=../FnP/gnuplot/f_y_history_
-400-eps-converted-to.pdf ../FnP/gnuplot/f_y_history_400.eps>
-(epstopdf)             \includegraphics on input line 49.
-Package epstopdf Info: Output file is already uptodate.
+LaTeX Warning: Reference `fig:power_mstar_collapsed_165' on page 9 undefined on
+ input line 63.
 
-<../FnP/gnuplot/f_y_history_400-eps-converted-to.pdf, id=131, 341.275pt x 170.6
-375pt>
-File: ../FnP/gnuplot/f_y_history_400-eps-converted-to.pdf Graphic file (type pd
-f)
- <use ../FnP/gnuplot/f_y_history_400-eps-converted-to.pdf>
-Package pdftex.def Info: ../FnP/gnuplot/f_y_history_400-eps-converted-to.pdf us
-ed on input line 49.
-(pdftex.def)             Requested size: 161.25523pt x 80.62924pt.
-Package epstopdf Info: Source file: <../FnP/gnuplot/theta_time_history_400.eps>
+[9] [10] (C:\Users\hgjay\Research\Research\research\paper\figure\fig4.tex
+File: ../FnP/gnuplot/fsi_displacement.eps Graphic file (type eps)
 
-(epstopdf)                    date: 2013-08-20 10:42:12
-(epstopdf)                    size: 83344 bytes
-(epstopdf)             Output file: <../FnP/gnuplot/theta_time_history_400-eps-
-converted-to.pdf>
-(epstopdf)                    date: 2013-08-20 10:42:12
-(epstopdf)                    size: 21224 bytes
-(epstopdf)             Command: <epstopdf --outfile=../FnP/gnuplot/theta_time_h
-istory_400-eps-converted-to.pdf ../FnP/gnuplot/theta_time_history_400.eps>
-(epstopdf)             \includegraphics on input line 49.
-Package epstopdf Info: Output file is already uptodate.
+<../FnP/gnuplot/fsi_displacement.eps>
+File: ../FnP/gnuplot/fsi_velocity.eps Graphic file (type eps)
+ <../FnP/gnuplot/fsi_velocity.eps>
+File: ../FnP/gnuplot/fsi_power.eps Graphic file (type eps)
 
-<../FnP/gnuplot/theta_time_history_400-eps-converted-to.pdf, id=132, 341.275pt 
-x 170.6375pt>
-File: ../FnP/gnuplot/theta_time_history_400-eps-converted-to.pdf Graphic file (
-type pdf)
- <use ../FnP/gnuplot/theta_time_history_400-eps-converted-to.pdf>
-Package pdftex.def Info: ../FnP/gnuplot/theta_time_history_400-eps-converted-to
-.pdf used on input line 49.
-(pdftex.def)             Requested size: 161.25523pt x 80.62924pt.
-
-Overfull \hbox (14.63324pt too wide) in paragraph at lines 49--50
-[][] 
- []
-
-) (C:\Users\hgjay\Research\Research\research\paper\figure\fig5.tex
-Package epstopdf Info: Source file: <../FnP/gnuplot/mean_power_collapsed_mstar.
-eps>
-(epstopdf)                    date: 2013-08-20 10:42:12
-(epstopdf)                    size: 22702 bytes
-(epstopdf)             Output file: <../FnP/gnuplot/mean_power_collapsed_mstar-
-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-08-20 10:42:12
-(epstopdf)                    size: 11171 bytes
-(epstopdf)             Command: <epstopdf --outfile=../FnP/gnuplot/mean_power_c
-ollapsed_mstar-eps-converted-to.pdf ../FnP/gnuplot/mean_power_collapsed_mstar.e
-ps>
-(epstopdf)             \includegraphics on input line 19.
-Package epstopdf Info: Output file is already uptodate.
-
-<../FnP/gnuplot/mean_power_collapsed_mstar-eps-converted-to.pdf, id=133, 341.27
-5pt x 170.6375pt>
-File: ../FnP/gnuplot/mean_power_collapsed_mstar-eps-converted-to.pdf Graphic fi
-le (type pdf)
-
-<use ../FnP/gnuplot/mean_power_collapsed_mstar-eps-converted-to.pdf>
-Package pdftex.def Info: ../FnP/gnuplot/mean_power_collapsed_mstar-eps-converte
-d-to.pdf used on input line 19.
-(pdftex.def)             Requested size: 322.50345pt x 161.26108pt.
-
-Overfull \hbox (14.63324pt too wide) in paragraph at lines 19--20
-[][] 
- []
-
-)
-
-LaTeX Warning: Reference `fig:power_mstar_collapsed_165' on page 10 undefined o
-n input line 63.
-
-[10 <C:/Users/hgjay/Research/Research/research/paper/FnP/gnuplot/power_time_his
-tory_90-eps-converted-to.pdf> <C:/Users/hgjay/Research/Research/research/paper/
-FnP/gnuplot/f_y_history_90-eps-converted-to.pdf> <C:/Users/hgjay/Research/Resea
-rch/research/paper/FnP/gnuplot/theta_time_history_90-eps-converted-to.pdf> <C:/
-Users/hgjay/Research/Research/research/paper/FnP/gnuplot/power_time_history_165
--eps-converted-to.pdf> <C:/Users/hgjay/Research/Research/research/paper/FnP/gnu
-plot/f_y_history_165-eps-converted-to.pdf> <C:/Users/hgjay/Research/Research/re
-search/paper/FnP/gnuplot/theta_time_history_165-eps-converted-to.pdf> <C:/Users
-/hgjay/Research/Research/research/paper/FnP/gnuplot/power_time_history_400-eps-
-converted-to.pdf> <C:/Users/hgjay/Research/Research/research/paper/FnP/gnuplot/
-f_y_history_400-eps-converted-to.pdf> <C:/Users/hgjay/Research/Research/researc
-h/paper/FnP/gnuplot/theta_time_history_400-eps-converted-to.pdf>]
-(C:\Users\hgjay\Research\Research\research\paper\figure\fig4.tex
-Package epstopdf Info: Source file: <../FnP/gnuplot/fsi_displacement.eps>
-(epstopdf)                    date: 2013-08-20 10:42:12
-(epstopdf)                    size: 19509 bytes
-(epstopdf)             Output file: <../FnP/gnuplot/fsi_displacement-eps-conver
-ted-to.pdf>
-(epstopdf)                    date: 2013-08-20 10:42:12
-(epstopdf)                    size: 5502 bytes
-(epstopdf)             Command: <epstopdf --outfile=../FnP/gnuplot/fsi_displace
-ment-eps-converted-to.pdf ../FnP/gnuplot/fsi_displacement.eps>
-(epstopdf)             \includegraphics on input line 34.
-Package epstopdf Info: Output file is already uptodate.
-
-<../FnP/gnuplot/fsi_displacement-eps-converted-to.pdf, id=182, 341.275pt x 170.
-6375pt>
-File: ../FnP/gnuplot/fsi_displacement-eps-converted-to.pdf Graphic file (type p
-df)
- <use ../FnP/gnuplot/fsi_displacement-eps-converted-to.pdf>
-Package pdftex.def Info: ../FnP/gnuplot/fsi_displacement-eps-converted-to.pdf u
-sed on input line 34.
-(pdftex.def)             Requested size: 230.36061pt x 115.18314pt.
-Package epstopdf Info: Source file: <../FnP/gnuplot/fsi_velocity.eps>
-(epstopdf)                    date: 2013-08-20 10:42:12
-(epstopdf)                    size: 19504 bytes
-(epstopdf)             Output file: <../FnP/gnuplot/fsi_velocity-eps-converted-
-to.pdf>
-(epstopdf)                    date: 2013-08-20 10:42:12
-(epstopdf)                    size: 5226 bytes
-(epstopdf)             Command: <epstopdf --outfile=../FnP/gnuplot/fsi_velocity
--eps-converted-to.pdf ../FnP/gnuplot/fsi_velocity.eps>
-(epstopdf)             \includegraphics on input line 34.
-Package epstopdf Info: Output file is already uptodate.
-
-<../FnP/gnuplot/fsi_velocity-eps-converted-to.pdf, id=183, 341.275pt x 170.6375
-pt>
-File: ../FnP/gnuplot/fsi_velocity-eps-converted-to.pdf Graphic file (type pdf)
- <use ../FnP/gnuplot/fsi_velocity-eps-converted-to.pdf>
-Package pdftex.def Info: ../FnP/gnuplot/fsi_velocity-eps-converted-to.pdf used 
-on input line 34.
-(pdftex.def)             Requested size: 230.36061pt x 115.18314pt.
-Package epstopdf Info: Source file: <../FnP/gnuplot/fsi_power.eps>
-(epstopdf)                    date: 2013-08-20 10:42:12
-(epstopdf)                    size: 19739 bytes
-(epstopdf)             Output file: <../FnP/gnuplot/fsi_power-eps-converted-to.
-pdf>
-(epstopdf)                    date: 2013-08-20 10:42:12
-(epstopdf)                    size: 6279 bytes
-(epstopdf)             Command: <epstopdf --outfile=../FnP/gnuplot/fsi_power-ep
-s-converted-to.pdf ../FnP/gnuplot/fsi_power.eps>
-(epstopdf)             \includegraphics on input line 34.
-Package epstopdf Info: Output file is already uptodate.
-
-<../FnP/gnuplot/fsi_power-eps-converted-to.pdf, id=184, 341.275pt x 170.6375pt>
-File: ../FnP/gnuplot/fsi_power-eps-converted-to.pdf Graphic file (type pdf)
-<use ../FnP/gnuplot/fsi_power-eps-converted-to.pdf>
-Package pdftex.def Info: ../FnP/gnuplot/fsi_power-eps-converted-to.pdf used on 
-input line 34.
-(pdftex.def)             Requested size: 230.36061pt x 115.18314pt.
-
-Overfull \hbox (14.63324pt too wide) in paragraph at lines 34--35
-[][] 
- []
-
-)) [11 <C:/Users/hgjay/Research/Research/research/paper/FnP/gnuplot/mean_power_
-collapsed_mstar-eps-converted-to.pdf>] [12 <C:/Users/hgjay/Research/Research/re
-search/paper/FnP/gnuplot/fsi_displacement-eps-converted-to.pdf> <C:/Users/hgjay
-/Research/Research/research/paper/FnP/gnuplot/fsi_velocity-eps-converted-to.pdf
-> <C:/Users/hgjay/Research/Research/research/paper/FnP/gnuplot/fsi_power-eps-co
-nverted-to.pdf>]
+<../FnP/gnuplot/fsi_power.eps>)) [11] [12]
 (C:\Users\hgjay\Research\Research\research\paper\main\elsarticle-template-harv.
 bbl [13
 
@@ -972,33 +386,12 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 3289 strings out of 494045
- 49791 string characters out of 3148386
- 103842 words of memory out of 3000000
- 6425 multiletter control sequences out of 15000+200000
+ 2843 strings out of 494046
+ 39930 string characters out of 3148411
+ 92639 words of memory out of 3000000
+ 5996 multiletter control sequences out of 15000+200000
  14347 words of font info for 55 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 42i,11n,34p,1459b,277s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
-onts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on elsarticle-template-harv.pdf (14 pages, 564361 bytes).
-PDF statistics:
- 278 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 136 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 42i,11n,34p,1459b,296s stack positions out of 5000i,500n,10000p,200000b,50000s
 
+Output written on elsarticle-template-harv.dvi (14 pages, 48820 bytes).
