@@ -1,18 +1,8 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2011.10.14)  2 AUG 2013 15:28
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=latex 2012.4.11)  20 AUG 2013 12:45
 entering extended mode
-**fig.tex
-(C:\Users\hgjay\Dropbox\paper\paper\figure\fig.tex
-LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
-abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
-croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
-vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
-an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
-romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
-sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
-senglishmax, welsh, loaded.
+ %&-line parsing enabled.
+**\input fig.tex
+(./fig.tex
 
 ! LaTeX Error: Environment figure undefined.
 
@@ -20,7 +10,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.4 \begin{figure}
+l.1 \begin{figure}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -29,7 +19,7 @@ or  <return>  to continue without it.
 ! Undefined control sequence.
 <argument> \includegraphics 
                             [width=0.5\unitlength ]{../FnP/gnuplot/displacem...
-l.9 ...uplot/displacement_amp_re_parkinson_1.eps}}
+l.7 ...uplot/displacement_amp_re_parkinson_1.eps}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -50,7 +40,7 @@ Missing character: There is no 5 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.9 ...uplot/displacement_amp_re_parkinson_1.eps}}
+l.7 ...uplot/displacement_amp_re_parkinson_1.eps}}
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -59,7 +49,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.9 ...uplot/displacement_amp_re_parkinson_1.eps}}
+l.7 ...uplot/displacement_amp_re_parkinson_1.eps}}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -99,19 +89,19 @@ Missing character: There is no t in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.9 ...uplot/displacement_amp_re_parkinson_1.eps}}
+l.7 ...uplot/displacement_amp_re_parkinson_1.eps}}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 9.
+(Font)              <7> on input line 7.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 9.
+(Font)              <5> on input line 7.
 ! Extra }, or forgotten $.
 <argument> ...displacement_amp_re_parkinson_1.eps}
                                                   
-l.9 ...uplot/displacement_amp_re_parkinson_1.eps}}
+l.7 ...uplot/displacement_amp_re_parkinson_1.eps}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -122,7 +112,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 \put ... \hb@xt@ \z@ {\kern #1\unitlength #3\hss }
                                                   \ignorespaces 
-l.9 ...uplot/displacement_amp_re_parkinson_1.eps}}
+l.7 ...uplot/displacement_amp_re_parkinson_1.eps}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -133,7 +123,7 @@ deleted material, e.g., by typing `I$}'.
 ! Undefined control sequence.
 <argument> \includegraphics 
                             [width=0.5\unitlength ]{../FnP/gnuplot/velocity_...
-l.10 ...nP/gnuplot/velocity_amp_re_parkinson.eps}}
+l.8 ...FnP/gnuplot/velocity_amp_re_parkinson.eps}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -154,7 +144,7 @@ Missing character: There is no 5 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.10 ...nP/gnuplot/velocity_amp_re_parkinson.eps}}
+l.8 ...FnP/gnuplot/velocity_amp_re_parkinson.eps}}
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -163,7 +153,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.10 ...nP/gnuplot/velocity_amp_re_parkinson.eps}}
+l.8 ...FnP/gnuplot/velocity_amp_re_parkinson.eps}}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -199,7 +189,7 @@ Missing character: There is no y in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.10 ...nP/gnuplot/velocity_amp_re_parkinson.eps}}
+l.8 ...FnP/gnuplot/velocity_amp_re_parkinson.eps}}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -207,7 +197,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <argument> ...uplot/velocity_amp_re_parkinson.eps}
                                                   
-l.10 ...nP/gnuplot/velocity_amp_re_parkinson.eps}}
+l.8 ...FnP/gnuplot/velocity_amp_re_parkinson.eps}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -218,7 +208,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 \put ... \hb@xt@ \z@ {\kern #1\unitlength #3\hss }
                                                   \ignorespaces 
-l.10 ...nP/gnuplot/velocity_amp_re_parkinson.eps}}
+l.8 ...FnP/gnuplot/velocity_amp_re_parkinson.eps}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -229,7 +219,7 @@ deleted material, e.g., by typing `I$}'.
 ! Undefined control sequence.
 <argument> \includegraphics 
                             [width=0.5\unitlength ]{../FnP/gnuplot/mean_powe...
-l.11 .../FnP/gnuplot/mean_power_re_parkinson.eps}}
+l.9 ..../FnP/gnuplot/mean_power_re_parkinson.eps}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -250,7 +240,7 @@ Missing character: There is no 5 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.11 .../FnP/gnuplot/mean_power_re_parkinson.eps}}
+l.9 ..../FnP/gnuplot/mean_power_re_parkinson.eps}}
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -259,7 +249,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.11 .../FnP/gnuplot/mean_power_re_parkinson.eps}}
+l.9 ..../FnP/gnuplot/mean_power_re_parkinson.eps}}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -291,7 +281,7 @@ Missing character: There is no n in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.11 .../FnP/gnuplot/mean_power_re_parkinson.eps}}
+l.9 ..../FnP/gnuplot/mean_power_re_parkinson.eps}}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -299,7 +289,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <argument> ...gnuplot/mean_power_re_parkinson.eps}
                                                   
-l.11 .../FnP/gnuplot/mean_power_re_parkinson.eps}}
+l.9 ..../FnP/gnuplot/mean_power_re_parkinson.eps}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -310,7 +300,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 \put ... \hb@xt@ \z@ {\kern #1\unitlength #3\hss }
                                                   \ignorespaces 
-l.11 .../FnP/gnuplot/mean_power_re_parkinson.eps}}
+l.9 ..../FnP/gnuplot/mean_power_re_parkinson.eps}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -321,7 +311,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.12 
+l.10 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -329,7 +319,7 @@ you left one out. Proceed, with fingers crossed.
 ! Undefined control sequence.
 <argument> \includegraphics 
                             [width=0.5\unitlength ]{../FnP/gnuplot/displacem...
-l.14 ..../FnP/gnuplot/displacement_amp_re165.eps}}
+l.12 ..../FnP/gnuplot/displacement_amp_re165.eps}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -350,7 +340,7 @@ Missing character: There is no 5 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.14 ..../FnP/gnuplot/displacement_amp_re165.eps}}
+l.12 ..../FnP/gnuplot/displacement_amp_re165.eps}}
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -359,7 +349,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.14 ..../FnP/gnuplot/displacement_amp_re165.eps}}
+l.12 ..../FnP/gnuplot/displacement_amp_re165.eps}}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -399,7 +389,7 @@ Missing character: There is no t in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.14 ..../FnP/gnuplot/displacement_amp_re165.eps}}
+l.12 ..../FnP/gnuplot/displacement_amp_re165.eps}}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -407,7 +397,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <argument> .../gnuplot/displacement_amp_re165.eps}
                                                   
-l.14 ..../FnP/gnuplot/displacement_amp_re165.eps}}
+l.12 ..../FnP/gnuplot/displacement_amp_re165.eps}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -418,7 +408,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 \put ... \hb@xt@ \z@ {\kern #1\unitlength #3\hss }
                                                   \ignorespaces 
-l.14 ..../FnP/gnuplot/displacement_amp_re165.eps}}
+l.12 ..../FnP/gnuplot/displacement_amp_re165.eps}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -429,7 +419,7 @@ deleted material, e.g., by typing `I$}'.
 ! Undefined control sequence.
 <argument> \includegraphics 
                             [width=0.5\unitlength ]{../FnP/gnuplot/velocity_...
-l.15 ...h]{../FnP/gnuplot/velocity_amp_re165.eps}}
+l.13 ...h]{../FnP/gnuplot/velocity_amp_re165.eps}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -450,7 +440,7 @@ Missing character: There is no 5 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.15 ...h]{../FnP/gnuplot/velocity_amp_re165.eps}}
+l.13 ...h]{../FnP/gnuplot/velocity_amp_re165.eps}}
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -459,7 +449,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.15 ...h]{../FnP/gnuplot/velocity_amp_re165.eps}}
+l.13 ...h]{../FnP/gnuplot/velocity_amp_re165.eps}}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -495,7 +485,7 @@ Missing character: There is no y in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.15 ...h]{../FnP/gnuplot/velocity_amp_re165.eps}}
+l.13 ...h]{../FnP/gnuplot/velocity_amp_re165.eps}}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -503,7 +493,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <argument> .../FnP/gnuplot/velocity_amp_re165.eps}
                                                   
-l.15 ...h]{../FnP/gnuplot/velocity_amp_re165.eps}}
+l.13 ...h]{../FnP/gnuplot/velocity_amp_re165.eps}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -514,7 +504,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 \put ... \hb@xt@ \z@ {\kern #1\unitlength #3\hss }
                                                   \ignorespaces 
-l.15 ...h]{../FnP/gnuplot/velocity_amp_re165.eps}}
+l.13 ...h]{../FnP/gnuplot/velocity_amp_re165.eps}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -525,7 +515,7 @@ deleted material, e.g., by typing `I$}'.
 ! Undefined control sequence.
 <argument> \includegraphics 
                             [width=0.5\unitlength ]{../FnP/gnuplot/mean_powe...
-l.16 ...th]{../FnP/gnuplot/mean_power_re_165.eps}}
+l.14 ...th]{../FnP/gnuplot/mean_power_re_165.eps}}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -546,7 +536,7 @@ Missing character: There is no 5 in font nullfont!
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.16 ...th]{../FnP/gnuplot/mean_power_re_165.eps}}
+l.14 ...th]{../FnP/gnuplot/mean_power_re_165.eps}}
                                                   
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -555,7 +545,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.16 ...th]{../FnP/gnuplot/mean_power_re_165.eps}}
+l.14 ...th]{../FnP/gnuplot/mean_power_re_165.eps}}
                                                   
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -587,7 +577,7 @@ Missing character: There is no n in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.16 ...th]{../FnP/gnuplot/mean_power_re_165.eps}}
+l.14 ...th]{../FnP/gnuplot/mean_power_re_165.eps}}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -595,7 +585,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <argument> ..../FnP/gnuplot/mean_power_re_165.eps}
                                                   
-l.16 ...th]{../FnP/gnuplot/mean_power_re_165.eps}}
+l.14 ...th]{../FnP/gnuplot/mean_power_re_165.eps}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -606,7 +596,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 \put ... \hb@xt@ \z@ {\kern #1\unitlength #3\hss }
                                                   \ignorespaces 
-l.16 ...th]{../FnP/gnuplot/mean_power_re_165.eps}}
+l.14 ...th]{../FnP/gnuplot/mean_power_re_165.eps}}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -617,7 +607,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.17 
+l.15 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -625,8 +615,8 @@ you left one out. Proceed, with fingers crossed.
 ! Undefined control sequence.
 <argument> \ustar 
                   
-l.25     \put(0.25,0.39){\ustar}
-                                
+l.20     \put(0.25,0.0){\ustar}
+                               
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -636,8 +626,19 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \ustar 
                   
-l.26      \put(0.8,0.39){\ustar}
-                                
+l.21     \put(0.75,0.0){\ustar}
+                               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \small 
+                  (a)
+l.30     \put(0.095,0.685){\small(a)}
+                                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -647,25 +648,80 @@ and I'll forget about whatever was undefined.
 Missing character: There is no ( in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no ) in font nullfont!
+! Undefined control sequence.
+<argument> \small 
+                  (b)
+l.31     \put(0.555,0.685){\small(b)}
+                                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 Missing character: There is no ( in font nullfont!
 Missing character: There is no b in font nullfont!
 Missing character: There is no ) in font nullfont!
+! Undefined control sequence.
+<argument> \small 
+                  (c)
+l.32     \put(0.095,0.455){\small(c)}
+                                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 Missing character: There is no ( in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no ) in font nullfont!
+! Undefined control sequence.
+<argument> \small 
+                  (d)
+l.33     \put(0.555,0.455){\small(d)}
+                                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 Missing character: There is no ( in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no ) in font nullfont!
+! Undefined control sequence.
+<argument> \small 
+                  (e)
+l.34     \put(0.095,0.225){\small(e)}
+                                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 Missing character: There is no ( in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no ) in font nullfont!
+! Undefined control sequence.
+<argument> \small 
+                  (f)
+l.35     \put(0.555,0.225){\small(f)}
+                                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 Missing character: There is no ( in font nullfont!
 Missing character: There is no f in font nullfont!
 Missing character: There is no ) in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.41   \end{picture}
+l.36   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -676,7 +732,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.41   \end{picture}
+l.36   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -687,7 +743,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.41   \end{picture}
+l.36   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -696,14 +752,14 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (59.8864pt too wide) detected at line 41
+Overfull \hbox (59.8864pt too wide) detected at line 36
 $[]\OML/cmm/m/it/10 mp[]e\OT1/cmr/m/n/10 165\OML/cmm/m/it/10 :eps[][]$
  []
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.41   \end{picture}
+l.36   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -714,7 +770,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.41   \end{picture}
+l.36   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -725,7 +781,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.41   \end{picture}
+l.36   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -734,14 +790,14 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (59.8864pt too wide) detected at line 41
+Overfull \hbox (59.8864pt too wide) detected at line 36
 $[]\OML/cmm/m/it/10 mp[]e\OT1/cmr/m/n/10 165\OML/cmm/m/it/10 :eps[]$
  []
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.41   \end{picture}
+l.36   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -752,7 +808,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.41   \end{picture}
+l.36   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -763,7 +819,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.41   \end{picture}
+l.36   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -774,7 +830,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.41   \end{picture}
+l.36   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -785,7 +841,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.41   \end{picture}
+l.36   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -794,14 +850,14 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (90.08936pt too wide) detected at line 41
+Overfull \hbox (90.08936pt too wide) detected at line 36
 $[]\OML/cmm/m/it/10 mp[]e[]arkinson:eps[]$
  []
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.41   \end{picture}
+l.36   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -812,7 +868,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.41   \end{picture}
+l.36   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -823,7 +879,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.41   \end{picture}
+l.36   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -832,14 +888,14 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (94.57549pt too wide) detected at line 41
+Overfull \hbox (299.32547pt too wide) detected at line 36
 $[]\OML/cmm/m/it/10 mp[]e[]arkinson[]:eps[]$
  []
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.41   \end{picture}
+l.36   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -850,7 +906,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.41   \end{picture}
+l.36   \end{picture}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -859,7 +915,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Underfull \hbox (badness 10000) detected at line 41
+Underfull \hbox (badness 10000) detected at line 36
  []
  []
 
@@ -870,7 +926,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.43   \caption
+l.39   \caption
                {Velocity and displacement amplitude and mean power  as a fun...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -883,7 +939,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.43   \caption{V
+l.39   \caption{V
                  elocity and displacement amplitude and mean power  as a fun...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -1012,7 +1068,7 @@ Missing character: There is no [ in font nullfont!
 ! Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.43 ... Re=22300 obtained by \cite{Parkinson1964}
+l.39 ... Re=22300 obtained by \cite{Parkinson1964}
                                                    and present data at three...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1021,7 +1077,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Parkinson1964' on page  undefined on input line 43.
+LaTeX Warning: Citation `Parkinson1964' on page  undefined on input line 39.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -1070,8 +1126,8 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no : in font nullfont!
 Missing character: There is no ( in font nullfont!
 ! Undefined control sequence.
-l.43 ...rent damping ratios: $\zeta=0.0125$ (\ding
-                                                  {83}), $\zeta=0.01$ (\ding...
+l.39 ...rent damping ratios: $\zeta=0.0125$ (\ding
+                                                  {83}), $\zeta=0.015$ (\din...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1084,8 +1140,8 @@ Missing character: There is no ) in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no ( in font nullfont!
 ! Undefined control sequence.
-l.43 ...a=0.0125$ (\ding{83}), $\zeta=0.01$ (\ding
-                                                  {116}) and $\zeta=0.015$ (...
+l.39 ...=0.0125$ (\ding{83}), $\zeta=0.015$ (\ding
+                                                  {116}) and $\zeta=0.0175$ ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1101,7 +1157,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no ( in font nullfont!
 ! Undefined control sequence.
-l.43 ....01$ (\ding{116}) and $\zeta=0.015$ (\ding
+l.39 ...15$ (\ding{116}) and $\zeta=0.0175$ (\ding
                                                   {108}). (b),(d) and (f) ar...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1247,8 +1303,8 @@ Missing character: There is no ) in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no ( in font nullfont!
 ! Undefined control sequence.
-l.43 ...ta=0.075$ ($\times$), $\zeta=0.015$ (\ding
-                                                  {117}) and $\zeta=0.0175$ ...
+l.39 ...zeta=0.075$ ($\times$), $\zeta=0.1$ (\ding
+                                                  {117}) and $\zeta=0.15$ (+...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1341,93 +1397,93 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 43--44
+Overfull \hbox (20.0pt too wide) in paragraph at lines 39--40
 []
  []
 
 
-Overfull \hbox (12.51526pt too wide) in paragraph at lines 43--44
-$\OML/cmm/m/it/10 U[]$
+Overfull \hbox (12.51526pt too wide) in paragraph at lines 39--40
+\OML/cmm/m/it/10 U[]$
  []
 
 
-Overfull \hbox (11.95396pt too wide) in paragraph at lines 43--44
-$\OML/cmm/m/it/10 C[]$
+Overfull \hbox (11.95396pt too wide) in paragraph at lines 39--40
+\OML/cmm/m/it/10 C[]$
  []
 
 
-Overfull \hbox (5.43053pt too wide) in paragraph at lines 43--44
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 39--40
 []
  []
 
 
-Overfull \hbox (15.66837pt too wide) in paragraph at lines 43--44
-$\OML/cmm/m/it/10  \OT1/cmr/m/n/10 =$
+Overfull \hbox (15.66837pt too wide) in paragraph at lines 39--40
+\OML/cmm/m/it/10 ^^P \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (27.77786pt too wide) in paragraph at lines 43--44
-$\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0125$
+Overfull \hbox (27.77786pt too wide) in paragraph at lines 39--40
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0125$
  []
 
 
-Overfull \hbox (15.66837pt too wide) in paragraph at lines 43--44
-$\OML/cmm/m/it/10  \OT1/cmr/m/n/10 =$
+Overfull \hbox (15.66837pt too wide) in paragraph at lines 39--40
+\OML/cmm/m/it/10 ^^P \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (17.77783pt too wide) in paragraph at lines 43--44
-$\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 01$
+Overfull \hbox (22.77785pt too wide) in paragraph at lines 39--40
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 015$
  []
 
 
-Overfull \hbox (15.66837pt too wide) in paragraph at lines 43--44
-$\OML/cmm/m/it/10  \OT1/cmr/m/n/10 =$
+Overfull \hbox (15.66837pt too wide) in paragraph at lines 39--40
+\OML/cmm/m/it/10 ^^P \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (22.77785pt too wide) in paragraph at lines 43--44
-$\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 015$
+Overfull \hbox (27.77786pt too wide) in paragraph at lines 39--40
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0175$
  []
 
 
-Overfull \hbox (11.95396pt too wide) in paragraph at lines 43--44
-$\OML/cmm/m/it/10 C[]$
+Overfull \hbox (11.95396pt too wide) in paragraph at lines 39--40
+\OML/cmm/m/it/10 C[]$
  []
 
 
-Overfull \hbox (15.66837pt too wide) in paragraph at lines 43--44
-$\OML/cmm/m/it/10  \OT1/cmr/m/n/10 =$
+Overfull \hbox (15.66837pt too wide) in paragraph at lines 39--40
+\OML/cmm/m/it/10 ^^P \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (22.77785pt too wide) in paragraph at lines 43--44
-$\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 075$
+Overfull \hbox (22.77785pt too wide) in paragraph at lines 39--40
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 075$
  []
 
 
-Overfull \hbox (7.7778pt too wide) in paragraph at lines 43--44
-$\OMS/cmsy/m/n/10 $
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 39--40
+\OMS/cmsy/m/n/10 ^^B$
  []
 
 
-Overfull \hbox (15.66837pt too wide) in paragraph at lines 43--44
-$\OML/cmm/m/it/10  \OT1/cmr/m/n/10 =$
+Overfull \hbox (15.66837pt too wide) in paragraph at lines 39--40
+\OML/cmm/m/it/10 ^^P \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (22.77785pt too wide) in paragraph at lines 43--44
-$\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 015$
+Overfull \hbox (12.77782pt too wide) in paragraph at lines 39--40
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 1$
  []
 
 
-Overfull \hbox (15.66837pt too wide) in paragraph at lines 43--44
-$\OML/cmm/m/it/10  \OT1/cmr/m/n/10 =$
+Overfull \hbox (15.66837pt too wide) in paragraph at lines 39--40
+\OML/cmm/m/it/10 ^^P \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (27.77786pt too wide) in paragraph at lines 43--44
-$\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0175$
+Overfull \hbox (17.77783pt too wide) in paragraph at lines 39--40
+\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 15$
  []
 
 
@@ -1437,7 +1493,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.46 \end{figure}
+l.42 \end{figure}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1445,17 +1501,17 @@ or  <return>  to continue without it.
 
 )
 ! Emergency stop.
-<*> fig.tex
-           
+<*> \input fig.tex
+                  
 *** (job aborted, no legal \end found)
 
  
 Here is how much of TeX's memory you used:
- 17 strings out of 494045
- 296 string characters out of 3148386
- 49890 words of memory out of 3000000
- 3408 multiletter control sequences out of 15000+200000
- 3948 words of font info for 15 fonts, out of 3000000 for 9000
- 715 hyphenation exceptions out of 8191
- 20i,15n,21p,678b,119s stack positions out of 5000i,500n,10000p,200000b,50000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 16 strings out of 256217
+ 231 string characters out of 1917095
+ 48804 words of memory out of 1500000
+ 3400 multiletter control sequences out of 10000+200000
+ 3948 words of font info for 15 fonts, out of 1200000 for 2000
+ 645 hyphenation exceptions out of 8191
+ 20i,15n,21p,683b,119s stack positions out of 5000i,500n,6000p,200000b,15000s
+No pages of output.
