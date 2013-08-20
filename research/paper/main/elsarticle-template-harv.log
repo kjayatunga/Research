@@ -1,21 +1,19 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=latex 2012.3.3)  20 AUG 2013 18:47
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=latex 2013.5.9)  20 AUG 2013 22:11
 entering extended mode
 **elsarticle-template-harv.tex
-
-(C:\Users\hgjay\Research\Research\research\paper\main\elsarticle-template-harv.
-tex
+(C:\Research\Research\research\paper\main\elsarticle-template-harv.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
 croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
-vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
-an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
-romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
-sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
-senglishmax, welsh, loaded.
-(C:\Users\hgjay\Research\Research\research\paper\main\elsarticle.cls
+lician, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+(C:\Research\Research\research\paper\main\elsarticle.cls
 Document Class: elsarticle 2009/09/17, 1.20b: Elsevier Ltd
 \@bls=\dimen102
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
@@ -89,8 +87,8 @@ File: upsy.fd 2001/06/04 font definitions for U/psy.
 \@sep=\skip43
 \@@sep=\skip44
 
-(C:\Users\hgjay\Research\Research\research\paper\main\elsarticle-template-harv.
-spl) (C:\Users\hgjay\AppData\Roaming\MiKTeX\2.9\tex\latex\natbib\natbib.sty
+(C:\Research\Research\research\paper\main\elsarticle-template-harv.spl)
+("C:\Program Files\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip45
 \bibsep=\skip46
@@ -107,25 +105,25 @@ Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
-Package: grfext 2010/08/19 v1.1 Managing graphics extensions (HO)
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
-Package: kvdefinekeys 2011/04/07 v1.3 Defining keys (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
-Package: kvoptions 2010/12/23 v3.10 Keyval support for LaTeX options (HO)
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
-Package: kvsetkeys 2011/04/07 v1.13 Key value parser (HO)
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
-Package: etexcmds 2011/02/16 v1.5 Prefix for e-TeX command names (HO)
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
@@ -137,7 +135,8 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
-Package: pdftexcmds 2011/04/22 v0.16 Utilities of pdfTeX for LuaTeX (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
@@ -220,10 +219,10 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
-(C:\Users\hgjay\AppData\Roaming\MiKTeX\2.9\tex\latex\a4wide\a4wide.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\a4wide\a4wide.sty"
 Package: a4wide 1994/08/30
 
-(C:\Users\hgjay\AppData\Roaming\MiKTeX\2.9\tex\latex\ntgclass\a4.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\ntgclass\a4.sty"
 Package: a4 2004/04/15 v1.2g A4 based page layout
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
@@ -237,8 +236,7 @@ Package color Info: Driver file: dvips.def on input line 130.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
 File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 ))
-(C:\Users\hgjay\Research\Research\research\paper\main\elsarticle-template-harv.
-aux)
+(C:\Research\Research\research\paper\main\elsarticle-template-harv.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
 LaTeX Font Info:    ... okay on input line 94.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
@@ -252,7 +250,8 @@ LaTeX Font Info:    ... okay on input line 94.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
 LaTeX Font Info:    ... okay on input line 94.
 LaTeX Font Info:    Try loading font information for U+msa on input line 143.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 143.
@@ -260,23 +259,23 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 143.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-(C:\Users\hgjay\Research\Research\research\paper\introduction\intro-1.0.tex)
-(C:\Users\hgjay\Research\Research\research\paper\nomenclature.tex [1
+(C:\Research\Research\research\paper\introduction\intro-1.0.tex)
+(C:\Research\Research\research\paper\nomenclature.tex [1
 
 
 ])
-(C:\Users\hgjay\Research\Research\research\paper\Theory\mathematical_model.tex
-[2]
+(C:\Research\Research\research\paper\Theory\mathematical_model.tex [2]
 File: ../FnP/setup_1.eps Graphic file (type eps)
- <../FnP/setup_1.eps> [3] [4]
-(C:\Users\hgjay\Research\Research\research\paper\figure\fig7.tex
+
+<../FnP/setup_1.eps> [3] [4]
+(C:\Research\Research\research\paper\figure\fig7.tex
 File: ../FnP/gnuplot/lift_curve_165.eps Graphic file (type eps)
 
 <../FnP/gnuplot/lift_curve_165.eps>
 File: ../FnP/gnuplot/lift_curve_park.eps Graphic file (type eps)
  <../FnP/gnuplot/lift_curve_park.eps>))
-(C:\Users\hgjay\Research\Research\research\paper\results\results-2.3.tex
-(C:\Users\hgjay\Research\Research\research\paper\figure\fig.tex
+(C:\Research\Research\research\paper\results\results-2.3.tex
+(C:\Research\Research\research\paper\figure\fig.tex
 File: ../FnP/gnuplot/displacement_amp_re_parkinson_1.eps Graphic file (type eps
 )
 
@@ -307,7 +306,7 @@ LaTeX Warning: Reference `fig:meanpower_collapsed' on page 7 undefined on input
 LaTeX Warning: Reference `fig:same_max_vel' on page 7 undefined on input line 2
 5.
 
-(C:\Users\hgjay\Research\Research\research\paper\figure\fig2.tex
+(C:\Research\Research\research\paper\figure\fig2.tex
 File: ../FnP/gnuplot/velocity_amp_collapsed_parkinson.eps Graphic file (type ep
 s)
 
@@ -322,7 +321,7 @@ File: ../FnP/gnuplot/mean_power_collapsed_prakinson.eps Graphic file (type eps)
 File: ../FnP/gnuplot/mean_power_collapsed_re_165.eps Graphic file (type eps)
 
 <../FnP/gnuplot/mean_power_collapsed_re_165.eps>)
-(C:\Users\hgjay\Research\Research\research\paper\figure\fig6.tex
+(C:\Research\Research\research\paper\figure\fig6.tex
 File: ../FnP/gnuplot/vel_time_history_60_0.075.eps Graphic file (type eps)
 
 <../FnP/gnuplot/vel_time_history_60_0.075.eps>
@@ -331,7 +330,7 @@ File: ../FnP/gnuplot/vel_time_history_165_0.175.eps Graphic file (type eps)
 <../FnP/gnuplot/vel_time_history_165_0.175.eps>) [7] [8]
 File: ../FnP/sketch_1.eps Graphic file (type eps)
  <../FnP/sketch_1.eps>
-(C:\Users\hgjay\Research\Research\research\paper\figure\fig3.tex
+(C:\Research\Research\research\paper\figure\fig3.tex
 File: ../FnP/gnuplot/power_time_history_90.eps Graphic file (type eps)
 
 <../FnP/gnuplot/power_time_history_90.eps>
@@ -358,7 +357,7 @@ File: ../FnP/gnuplot/f_y_history_400.eps Graphic file (type eps)
 File: ../FnP/gnuplot/theta_time_history_400.eps Graphic file (type eps)
 
 <../FnP/gnuplot/theta_time_history_400.eps>)
-(C:\Users\hgjay\Research\Research\research\paper\figure\fig5.tex
+(C:\Research\Research\research\paper\figure\fig5.tex
 File: ../FnP/gnuplot/mean_power_collapsed_mstar.eps Graphic file (type eps)
 
 <../FnP/gnuplot/mean_power_collapsed_mstar.eps>)
@@ -366,7 +365,7 @@ File: ../FnP/gnuplot/mean_power_collapsed_mstar.eps Graphic file (type eps)
 LaTeX Warning: Reference `fig:power_mstar_collapsed_165' on page 9 undefined on
  input line 63.
 
-[9] [10] (C:\Users\hgjay\Research\Research\research\paper\figure\fig4.tex
+[9] [10] (C:\Research\Research\research\paper\figure\fig4.tex
 File: ../FnP/gnuplot/fsi_displacement.eps Graphic file (type eps)
 
 <../FnP/gnuplot/fsi_displacement.eps>
@@ -375,23 +374,21 @@ File: ../FnP/gnuplot/fsi_velocity.eps Graphic file (type eps)
 File: ../FnP/gnuplot/fsi_power.eps Graphic file (type eps)
 
 <../FnP/gnuplot/fsi_power.eps>)) [11] [12]
-(C:\Users\hgjay\Research\Research\research\paper\main\elsarticle-template-harv.
-bbl [13
+(C:\Research\Research\research\paper\main\elsarticle-template-harv.bbl [13
 
-]) [14]
-(C:\Users\hgjay\Research\Research\research\paper\main\elsarticle-template-harv.
-aux)
+])
+[14] (C:\Research\Research\research\paper\main\elsarticle-template-harv.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2843 strings out of 494046
- 39930 string characters out of 3148411
- 92639 words of memory out of 3000000
- 5996 multiletter control sequences out of 15000+200000
+ 2874 strings out of 493922
+ 39794 string characters out of 3147306
+ 93353 words of memory out of 3000000
+ 6027 multiletter control sequences out of 15000+200000
  14347 words of font info for 55 fonts, out of 3000000 for 9000
- 715 hyphenation exceptions out of 8191
+ 841 hyphenation exceptions out of 8191
  42i,11n,34p,1459b,296s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on elsarticle-template-harv.dvi (14 pages, 48820 bytes).
+Output written on elsarticle-template-harv.dvi (14 pages, 47944 bytes).
