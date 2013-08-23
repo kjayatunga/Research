@@ -54,6 +54,10 @@ This equation could be solved by time integration methods. In  this study  ``Ode
 P_{mean}=\frac{1}{T}\int_{0}^{T}(c\dot{y})\dot{y} dt
  \end{equation}
  
+ \input{../figure/cy_vs_theta}
+ \vspace{20mm}
+ \input{../figure/coefficient-table}
+ 
 \subsection{Parameters used} 
  
 The stationary data and the FSI data were obtained using a higher order spectral element code which simulates 2D laminar flow. The Reynolds number was kept at 165 as it was pointed out by \cite{Sheard2009} and \cite{Tong2008} that the 3 dimensional transition for a square cylinder occurs at approximately Re-160. $F_0$ was kept at $0.4937$ which was obtained by using a simple linear interpolation on the data of \cite{Joly2012}. $\omega_s$ was set to $0.98$ winch was obtained by a power spectral analysis of the stationary data at $0^0$. Stationary $C_y$ data were obtained at different angles of attack ranging from $0^0$ to $16^0$. The average power was obtained by using Eq. \eqref{power} with data sets consisting substantial amount of peaks. In order to obtain a comparison with high Reynolds number power data was obtained using \cite{Parkinson1964} $C_y$ data.
@@ -61,9 +65,9 @@ The stationary data and the FSI data were obtained using a higher order spectral
 
  FSI data were obtained for the oscillating (free-vibration) scenario. The Naiver-Stokes equations were solved using an accelerated frame of reference using the previously mentioned code. A three-step time splitting scheme together with high-order Lagrangian polynomials were used to obtain the solution. The details of the method could be found in \cite{Thompson2006,Thompson1996a}. This code was incorporated in \cite{Leontini2011,Leontini2007a}  where it was employed in a fluid-structure interaction problems. 
  
- The computational domain consists of 690 quadrilateral macro elements(refer figure) where majority of the elements were concentrated near the square section. A freestream condition was given to the inlet, top and bottom boundaries and the normal velocity gradient was set to zero at the outlet. A convergence study was performed by changing the order of the polynomial ($p$-refinement) at $U^*=40$ and Re $165$. A 9th order polynomial together with a time step of $\frac{\Delta tU}{D}=0.001$ was sufficient to ensure an accuracy of $2\%$ with regards to amplitude of oscillation.  
+ The computational domain consists of 690 quadrilateral macro elements where majority of the elements were concentrated near the square section. A freestream condition was given to the inlet, top and bottom boundaries and the normal velocity gradient was set to zero at the outlet. A convergence study was performed by changing the order of the polynomial ($p$-refinement) at $U^*=40$ and Re $165$. A 9th order polynomial together with a time step of $\frac{\Delta tU}{D}=0.001$ was sufficient to ensure an accuracy of $2\%$ with regards to amplitude of oscillation.  
  
-\input{../figure/cy_vs_theta}
+
  
  
  

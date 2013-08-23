@@ -29,7 +29,7 @@
 
 
  
- Power could be expressed as the product of force and velocity. Therefore the transferred power form fluid-to-body could be expressed as $P_t=F_y\dot{y}$. Similarly the dissipated power due to the mechanical damping could be expressed as $P_d=(c\dot{y})\dot{y}$. The time average of these two quantities should be equal when mechanical friction is neglected due to energy conservation. The analysis of time histories of $P_t $ and $P_d$ at key regions (Fig.\ref{fig:regions_1}) on the mean power vs $U^*$ provides a detailed explanation for the varying power output when the reduced velocity is increased. It has been established earlier that the damping factor is a function of $U^*$. It could be derived that $U^*$ is inversely proportional to damping coefficient. 
+ Power could be expressed as the product of force and velocity. Therefore the transferred power form fluid-to-body could be expressed as $P_t=F_y\dot{y}$. Similarly the dissipated power due to the mechanical damping could be expressed as $P_d=(c\dot{y})\dot{y}$. The time average of these two quantities should be equal due to energy conservation if the mechanical friction is neglected . The analysis of time histories of $P_t $ and $P_d$ at key regions (Fig.\ref{fig:regions_1}) on the mean power vs $U^*$ provides a detailed explanation for the varying power output when the reduced velocity is increased. The key regions consists of region 1 where the $P_m$ increases with \ustar, region 2 where $P_m$ becomes maximum and region 3 where $P_m$ decreases with \ustar. It has been established earlier that the damping factor is a function of $U^*$. Therefore it could be derived that $U^*$ is inversely proportional to damping coefficient. Hence the damping coefficient reduces when you move from region 1 to 3.  
 
 \begin{figure}[h!]
 \centering
@@ -39,13 +39,11 @@
 \end{figure}
 
 
-From Fig \ref{cy ploynomial} (a) shows that the instantaneous force rises until $4^0$ where it peaks and then falls and at round $6^0$ becomes negative. Maximum amount of power could be transferred within the peak region. At the region where the instantaneous force becomes negative it will be opposing the velocity $\dot{y}$.
+From Fig \ref{cy ploynomial} (a) shows that the instantaneous force rises until $4^0$ where it peaks and then falls and at round $6^0$ becomes negative. Maximum amount of power could be transferred within the peak region. At the region where the instantaneous force becomes negative it will be opposing the velocity $\dot{y}$. $U^*=90$ (region 1) the damping constant is high and therefore a clear sinusoidal signal could be observed for both $P_d$ and $P_t$ Fig. \ref{fig:power_time_histories} (a). Fig.\ref{fig:power_time_histories} (d) and (g) shows that$\theta$ is in line or in phase with $F_y$. Hence both $P_d$ and $P_t$ becomes sinusoidal. However, due to the higher damping  $\theta$ does not go to the region where the peak power is produced. 
 
-$U^*=90$ (region 1) the damping constant is high and therefore a clear sinusoidal signal could be observed for both $P_d$ and $P_t$ Fig. \ref{fig:power_time_histories} (a). Fig.\ref{fig:power_time_histories} (d) and (g) shows that$\theta$ is in line or in phase with $F_y$. Hence both $P_d$ and $P_t$ becomes sinusoidal. However, due to the higher damping  $\theta$ does not go to the region where the peak power is produced.
+At region 2 ($U^*=165$) the mean power output is at its maximum. $P_t$ is not a pure sinusoidal signal. However, the  signal remains periodic. From the time history graph of $P_t$, two `peaks' are present in a single half cycle (Fig \ref{fig:power_time_histories} (b)). In this case at certain point in time $\theta$ arrives at the region where $F_y$ decreases but does not become negative when the angle is increased. Therefore, the force $F_y$ and $P_t$ reduces as the velocity further increases since $\theta = tan^{-1}(\frac{\dot{y}}{U})$. As the velocity $\dot{y}$ is sinusoidal, $\theta$ recovers back and this leads to two `peaks'  in a single half cycle.
 
-At region 2 where the mean power output is at its maximum($U=165$), $P_t$ is not a pure sinusoidal signal. However, the  signal remains periodic. From the time history graph of $P_t$,two `peaks' are present in a single half cycle (Fig \ref{fig:power_time_histories} (b)). In this case at certain point in time $\theta$ arrives at the region where $F_y$ decreases but does not become negative when the angle is increased. Therefore, the force $F_y$ and $P_t$ reduces as the velocity further increases since $\theta = tan^{-1}(\frac{\dot{y}}{U})$. As the velocity $\dot{y}$ is sinusoidal, $\theta$ recovers back and this leads to two `peaks'  in a single half cycle.
-
-At region 3 ($U^*= 400$) `$c$' is low in comparison with region 1 and 2 which leads to a low mean power output. From Fig.\ref{fig:power_time_histories} (c) .b $P_t$ becomes negative over some portion of the cycle. This is because $\theta$  passes the point where both $\theta$ and $c_y$ (therefore $c_y$) are positive. As the force opposes the direction of travel and the power becomes negative. On the other hand from an energy perspective we could see that the mechanical damping is not sufficient to dissipate out the energy transferred from the fluid to the structure during the part of the cycle when this occurs(as `$c$' is substantially low), therefore  part of this energy is transferred back to the fluid in the remaining part of the cycle.
+ At region 3 ($U^*= 400$) `$c$' is low in comparison with region 1 and 2 which leads to a low mean power output. Fig.\ref{fig:power_time_histories} (c) shows that $P_t$ becomes negative over some portion of the cycle. This is because $\theta$  passes the point where both $\theta$ and $c_y$ (therefore $c_y$) are positive. As the force opposes the direction of travel, the power becomes negative. On the other hand from an energy perspective we could see that the mechanical damping is not sufficient to dissipate out the energy transferred from the fluid to the structure during the part of the cycle when this occurs(as `$c$' is substantially low), therefore  part of this energy is transferred back to the fluid in the remaining part of the cycle.
 
  
   
@@ -58,7 +56,8 @@ At region 3 ($U^*= 400$) `$c$' is low in comparison with region 1 and 2 which le
 
  \input{../figure/m_star_collapsed}
 
-The maximum mean power at different $m^*$ Fig.\ref{fig:m_star_collapsed} was constant beyond $m^*=30$. However, at $m^* \leq 30$ an effect of $m^*$ it could be observed that the mean power curve reduces with $m^*$. This may be due to the fact that as the inertia of the system is reduced.  
+The maximum mean power at different $m^*$ Fig.\ref{fig:m_star_collapsed} was constant beyond $m^*=30$. However, at $m^* \leq 30$ an effect of $m^*$ it could be observed that the mean power curve reduces with $m^*$. This may be due to the fact that as the inertia of the system is reduced. Therefore galloping becomes weak.
+
 
  
  
