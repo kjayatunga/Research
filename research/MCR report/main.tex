@@ -1,0 +1,177 @@
+%Mid-Year Cadidature Review Report 
+%Updated on 23/08/2012 at 15.30
+
+\documentclass{article}  
+\usepackage{a4wide}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{tabulary}
+\usepackage[sort]{cite}
+%\usepackage[sort,nocompress]{cite}
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{placeins}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{epstopdf}
+\usepackage{enumerate}
+\usepackage{pdfpages}
+
+%\title{\Huge bfseries{Towards a green optical Internet 
+%jnvsjkvnsfjkvnfkjsv 
+%dfdfd
+%}} 
+%\author{\textsf{M. Nishan Dharmaweera}} 
+
+%\year{April, 2004} 
+%\department{\emph{Department of Electrical and Computer Systems Engineering}}
+%\title{Towards a Green Optical Internet}
+%\author{Nishan Dharmaweera \and Rajendran Parthiban \and Y. Ahmet \c{S}ekercio\u{g}lu}
+\begin{document}
+
+\begin{titlepage}
+\begin{center}
+{\huge \bfseries Towards a green optical Internet}\\[2.5cm]
+{\LARGE \bfseries M. Nishan Dharmaweera}\\[2.5cm]
+\textsc{\Large Supervisors:\\[0.5cm] Dr. Rajendran Parthiban \\[0.4cm] Dr. Ahmet Sekercioglu \\[0.5cm] Mr. Nader Kamrani}\\[6.5cm]
+\textsc{\Large Ph.D. Mid-Candidature Review Report}\\
+
+\vfill
+\textsc{\Large $27^{\text{th}}$ August 2012}
+\end{center}
+\end{titlepage}
+%\titlepage
+%\maketitle
+\tableofcontents
+
+\section{Introduction}
+
+
+\section{Research focus}
+
+
+\section{Research objectives}
+By carrying out a comprehensive literature survey, we identified common approaches used to minimize energy consumption in optical core networks. Consequently, we narrowed the scope of this thesis to cover three different approaches as specified in the previous section.
+The objectives of this research are to:
+\begin{enumerate}
+\item Compare, as part of the node-based approach, available core node architectures and switching technologies from an energy efficiency perspective and find new ways to minimize energy consumption and other parameters such as cost and incurred delay.
+\begin{enumerate}[i]
+\item Develop an algorithm using an analytical model that would successfully deduce the physical fiber connections for a given set of core nodes while minimizing the joint function of cost and transmission energy consumption. 
+\item Analyse the energy efficiency of optical-burst switching (OBS) networks and develop an analytical framework to increase their energy efficiency by identifying bursts that share common paths.
+\end{enumerate}
+\item Generate energy-efficient solutions using traffic grooming approaches.
+\begin{enumerate}[i]
+\item Design a sparse-grooming \cite{Srinivasan2009} based algorithm to identify the best cities to place IP core routers to maximize energy savings as part of the traffic engineering approach.
+\item Quantify the energy benefits of waveband grooming and determine how different waveband grouping schemes affect energy consumption.
+\item Analyse how futuristic multi-wavelength converters and regenerators would affect the energy consumption of a waveband switched network.
+\end{enumerate} 
+\item Generate energy-efficient solutions using network engineering approaches.
+\begin{enumerate}[i]
+\item Comparatively analyse the energy efficiencies of waveband switched networks that utilize single-line-rate and MLR schemes as part of the network engineering approach. 
+\item Validate the superiority of MLR in a WBS environment and propose optimization schemes to increase energy efficiency of MLR networks.
+\item Develop a novel mechanism to reduce energy consumption in a burst switched network, by identifying and following variations in network loads to switch off network elements in a coordinated pattern.
+\end{enumerate}     
+\end{enumerate}
+\section{Research progress}
+The thesis will be divided into four main stages. The first stage consists of the literature survey. Most recent studies related to the three energy conservation approaches are examined in detail and reported in the first stage. While much attention was given to understanding the framework, obtained results, and the conclusions, we also examined the limitations of these existing studies. The outcome of this stage is a comprehensive literature survey that lays the foundation for the remaining stages. This survey is now being prepared for submission to a journal \cite{Dharmaweera2012b}.
+
+From the literature survey, we identified both optical-circuit switching (OCS) and optical-burst switching (OBS) to be more energy efficient in comparison to point-to-point (pt-pt) and optical-packet switching (OPS) technologies. However, both OCS and OBS face a number of challenges. Therefore, in stage two of this study, we attempted to generate novel mechanisms to increase energy efficiency in OCS and OBS based optical fiber backbone networks. 
+\begin{itemize}
+\item 
+\end{itemize}
+
+
+\begin{itemize}
+\item Sparse grooming is a grooming strategy where wavelength or waveband level traffic grooming is performed at a limited number of core nodes placed in cities. It was also found that the amounts of inter-city and intra-city traffic processed by a core IP router have a direct effect on its energy consumption. To maximize energy efficiency, excess power consumed by a core router to groom traffic needs to be compensated by power savings at the transmission links (due to fewer wavelengths) and intermediate nodes (by promoting optical bypassing). In our study \cite{Dharmaweera2010}, we analysed how sparse grooming could be used to offer energy savings in a real-life network (i.e., AARNet). Results indicated that by only grooming traffic at a set of predefined nodes in cities, overall energy consumption of the network could be reduced. Nevertheless, the findings of this study \cite{Dharmaweera2010} will depend on the amounts of inter-city and intra-city traffic and are only applicable for an OCS network.
+\item Waveband grooming is another interesting approach that further reduces the number of wavelengths required to serve traffic in the network. Waveband grooming offers port, wavelength, and cost savings. Core nodes of a waveband-switched (WBS) network have multi-granular optical cross connect (MG-OXC) architecture. Regardless of its cost and performance benefits, waveband grooming is not well explored in the context of energy consumption. Therefore, we first analysed the two most prominent waveband grouping schemes under different network parameters (i.e., network load, waveband granularity) in terms of offered energy figures. The obtained results demonstrated that the sub-path merging waveband grouping scheme is more energy efficient. It was also found that energy efficiency is reduced at high traffic loads. Waveband granularity also affects the energy consumption figures, and the network consumes the least energy when the number of wavelengths in a traffic demand is equal to an integer multiple of the waveband granularity. Further work indicates that inclusion of futuristic multi-wavelength converters, regenerators and transponders also aid in reducing the overall energy consumption.
+The results obtained are to be released in the coming month via \cite{Dharmaweera2012a} 
+\item Energy consumption of wavelength routed WBS networks were comparatively analysed using Single-Line-Rate (SLR) and MLR techniques. This is an important research topic that has not been given any scrutiny in the past but requisites immediate attention. Our results showed that energy savings from SLR and MLR networks outdo each other at different traffic loads and different line rates. The reach of a wavelength (maximum transmission distance without regeneration) at high line rates is a critical factor in MLR networks. MLR networks could be optimized to increase resource utilization, minimize transponder usage, and maximize energy savings. The results and evaluations of this study are to be communicated in  the future \cite{Dharmaweera2012c}.
+\end{itemize}
+Finally, in stage four of this study, we intend to explore and develop novel frameworks to increase energy efficiency in an optical fiber backbone network, by utilizing either sleep mode of operation, ALR or MLR techniques. As the reader might have noticed, both sleep mode of operation and MLR were used in the two previous two stages in conjunction with OBS and WBS technologies. We are currently analysing the existing literature, and are in the process of developing an energy-aware network configuration where line cards and links in the network could move back and forth between sleep and active states depending on the network load. 
+
+With respect to the PhD thesis, each of the above stages (literature survey and the three approaches) are intended to be converted into a chapter. This is to be followed by a chapter covering the discussion and the conclusion (Appendix). During my PhD, the three main approaches are being studied concurrently. Therefore, as of today, certain tasks from each different stage have been completed. The remaining tasks are to be completed before the end of the allocated time period as explained in the Gantt chart shown in Figure 1. In conclusion, 60\% of the research work has been completed to date with 70\% of the objectives being successfully accomplished.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=\textwidth]{./Gantt}
+\caption{Revised Gantt Chart}
+\label{fig:Gantt}
+\end{figure}
+
+
+\section{Difficulties and challenges} 
+
+\begin{enumerate}
+      
+\end{enumerate}
+\bibliographystyle{IEEEtran}
+\bibliography{IEEEabrv,Ref,Mywork,MidYear}
+\appendix
+\begin{center}
+\section*{\LARGE Appendix 1}
+\addcontentsline{toc}{section}{Appendix 1} 
+\end{center}
+Proposed table of contents of the final PhD thesis:
+\begin{enumerate}
+\item Introduction
+\begin{enumerate}[i]
+\item Looking forward
+\item Scope of the thesis
+\item Organization of the thesis
+\item Objectives
+\item Contributions
+\item Publications 
+\end{enumerate}
+\item Power consumption in optical core network
+\begin{enumerate}[i]
+\item Introduction
+\item Core network architecture
+\item Core node architecture 
+\item Power consumption values
+\item Node-based approaches
+\item Traffic engineering-based approaches
+\item Network engineering-based approaches
+\end{enumerate}
+\item Node-based energy efficiency
+\begin{enumerate}[i]
+\item Introduction
+\item General network model
+\item Problem definition
+\item Cost model
+\item Energy and cost efficient algorithm
+\item Framework for energy efficient OBS network
+\item Summary
+\end{enumerate}
+\item Traffic engineering-based energy efficiency
+\begin{enumerate}[i]
+\item Introduction
+\item Grooming based network model
+\item Problem definition
+\item Sparse grooming 
+\item Waveband grooming 
+\item Summary
+\end{enumerate}
+\item Network engineering-based energy efficiency \begin{enumerate}[i]
+\item Introduction
+\item MLR based network model
+\item Problem definition
+\item MLR based WBS network
+\item Sleep mode enabled core network
+\item Summary
+\end{enumerate}
+\item Conclusion
+\begin{enumerate}[i]
+\item Introduction
+\item Summary of the work
+\item Future directions
+\end{enumerate}
+\end{enumerate}
+Each sub-section mentioned above could be further divided into sections, if necessary. For example, 3(v) could be divided as 3(v)(a) "ILP formulation", 3(v)(b) "Heuristic algorithm" and 3(v)(c) "Evaluation"
+\newpage
+\centering
+\vspace*{2.5in}
+\section*{\LARGE Appendix 2}
+\addcontentsline{toc}{section}{Appendix 2} 
+\includepdf[page={-}]{ICTpaper.pdf}
+\end{document}
