@@ -19,6 +19,11 @@ F_y=\frac{1}{2}\rho U^2\mathcal{A}C_y
 
  In the QSS  model $C_y$ is determined by an interpolating polynomial based on the stationary lift and drag data. The order of the interpolation polynomial has varied from study to study. For  example a $7^{th}$ polynomial order was used in \cite{Parkinson1964} and $3^{rd}$ order polynomial was used in \cite{Barrero-Gil2009}. \cite{Ng2005} concluded that using a $7^{th}$ order polynomial is sufficient and a polynomial higher than that of $7^{th}$ order polynomial neither provides a significantly better result nor does it exhibit an additional amplitudes of oscillation. Thus a $7 ^{th}$ order interpolating polynomial was incorporated in this present study. 
 
+ {\Tan You need to talk about Figure 2. How your Re165 compares with earlier results. Highlight the main differences between RE165 and Re22300. What are the peak value in both. 
+ When do they become negative and why that is significant (i.e. idrection of power transfer). Also worh mentioning that the inflcection point at ?? degrees leads to the hystersis and cite some key papers for that. Then say this is not present at RE165 and therefore expect no hyterisis at 165. The overall smaller Cy and smaller range of angles where Cy is +ve for Re165 compared to Re22300 leads one to expect a lot less power at re165 compared to re22300.
+Fix this up and then  we can later in the results section relate back to here to aid in our explanation.
+ }
+ 
 \begin{equation}
 \label{cy ploynomial}
 C_y(\theta)=a_1\left(\frac{\dot{y}}{U}\right)+a_3\left(\frac{\dot{y}}{U}\right)^3+a_5\left(\frac{\dot{y}}{U}\right)^5+a_7\left(\frac{\dot{y}}{U}\right)^7
@@ -29,7 +34,7 @@ C_y(\theta)=a_1\left(\frac{\dot{y}}{U}\right)+a_3\left(\frac{\dot{y}}{U}\right)^
 %\ddot{y}+c^*\dot{y}+k^*y=\frac{1}{2}\rho U^2A
 %\end{equation}
 
-\cite{Joly2012} reported a reduction of displacement amplitude at low mass ratios. Therefore in order to account for it a sinusoidal forcing function to the RHS of the oscillator model (Eq. \eqref{equationofmotion})was introduced, in order to represent forcing due to VIV. This method provided satisfactory results with the numerical simulations obtained at low mass ratios. In this study, the forcing due to VIV is incorporated using a sinusoidal forcing function $F_0\sin{\omega_{s}t}$ added to the RHS of the equation. $\omega_{s}$ and $F_0$ represents shedding frequency and the maximum force due to shedding respectively. Thus, the final equation is given by Eq. \eqref{final_equation_motion}.    
+\cite{Joly2012} reported a reduction of displacement amplitude at low mass ratios. Therefore in order to account for it {\Tan what is "it" ??} a sinusoidal forcing function to the RHS of the oscillator model (Eq. \eqref{equationofmotion})was introduced, in order to represent forcing due to VIV. This method provided satisfactory results with the numerical simulations obtained at low mass ratios. In this study, the forcing due to VIV is incorporated using a sinusoidal forcing function $F_0\sin{\omega_{s}t}$ added to the RHS of the equation. $\omega_{s}$ and $F_0$ represents shedding frequency and the maximum force due to shedding respectively. Thus, the final equation is given by Eq. \eqref{final_equation_motion}.    
 
 \begin{equation}
 \label{final_equation_motion}
